@@ -1,0 +1,3964 @@
+{
+  "bad_szoid_cert_template": {
+    "raw": "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",
+    "parsed": {
+  "version": "3",
+  "serial_number": "33288",
+  "signature_algorithm": "sha1WithRSAEncryption",
+  "issuer_str": "CN=\\D0\\A6\\D0\\A1\\D0\\9A \\D0\\9D\\D0\\91\\D0\\A3,C=UA,L=\\D0\\9A\\D0\\B8\\D1\\97\\D0\\B2,O=\\D0\\9D\\D0\\B0\\D1\\86\\D1\\96\\D0\\BE\\D0\\BD\\D0\\B0\\D0\\BB\\D1\\8C\\D0\\BD\\D0\\B8\\D0\\B9 \\D0\\B1\\D0\\B0\\D0\\BD\\D0\\BA \\D0\\A3\\D0\\BA\\D1\\80\\D0\\B0\\D1\\97\\D0\\BD\\D0\\B8,OU=\\D0\\A6\\D0\\B5\\D0\\BD\\D1\\82\\D1\\80 \\D1\\81\\D0\\B5\\D1\\80\\D1\\82\\D0\\B8\\D1\\84\\D1\\96\\D0\\BA\\D0\\B0\\D1\\86\\D1\\96\\D1\\97 \\D0\\BA\\D0\\BB\\D1\\8E\\D1\\87\\D1\\96\\D0\\B2,serialNumber=UA-00032106-03",
+  "issuer": [
+    {
+      "value": "UA-00032106-03",
+      "oid": {
+        "dotted_string": "2.5.4.5",
+        "name": "serialNumber"
+      }
+    },
+    {
+      "value": "Центр сертифікації ключів",
+      "oid": {
+        "dotted_string": "2.5.4.11",
+        "name": "organizationalUnitName"
+      }
+    },
+    {
+      "value": "Національний банк України",
+      "oid": {
+        "dotted_string": "2.5.4.10",
+        "name": "organizationName"
+      }
+    },
+    {
+      "value": "Київ",
+      "oid": {
+        "dotted_string": "2.5.4.7",
+        "name": "localityName"
+      }
+    },
+    {
+      "value": "UA",
+      "oid": {
+        "dotted_string": "2.5.4.6",
+        "name": "countryName"
+      }
+    },
+    {
+      "value": "ЦСК НБУ",
+      "oid": {
+        "dotted_string": "2.5.4.3",
+        "name": "commonName"
+      }
+    }
+  ],
+  "validity": {
+    "not_before": "2015-12-03T12:19:06",
+    "not_after": "2016-12-02T12:19:06"
+  },
+  "subject_str": "street=Instytutska 9,C=UA,ST=Kyiv,L=Kyiv,O=National bank of Ukraine,emailAddress=vit.umt@bank.gov.ua,OU=IT,CN=trunk.bank.gov.ua",
+  "subject": [
+    {
+      "value": "trunk.bank.gov.ua",
+      "oid": {
+        "dotted_string": "2.5.4.3",
+        "name": "commonName"
+      }
+    },
+    {
+      "value": "IT",
+      "oid": {
+        "dotted_string": "2.5.4.11",
+        "name": "organizationalUnitName"
+      }
+    },
+    {
+      "value": "vit.umt@bank.gov.ua",
+      "oid": {
+        "dotted_string": "1.2.840.113549.1.9.1",
+        "name": "emailAddress"
+      }
+    },
+    {
+      "value": "National bank of Ukraine",
+      "oid": {
+        "dotted_string": "2.5.4.10",
+        "name": "organizationName"
+      }
+    },
+    {
+      "value": "Kyiv",
+      "oid": {
+        "dotted_string": "2.5.4.7",
+        "name": "localityName"
+      }
+    },
+    {
+      "value": "Kyiv",
+      "oid": {
+        "dotted_string": "2.5.4.8",
+        "name": "stateOrProvinceName"
+      }
+    },
+    {
+      "value": "UA",
+      "oid": {
+        "dotted_string": "2.5.4.6",
+        "name": "countryName"
+      }
+    },
+    {
+      "value": "Instytutska 9",
+      "oid": {
+        "dotted_string": "2.5.4.9",
+        "name": "streetAddress"
+      }
+    }
+  ],
+  "subject_public_key_info": {
+    "algorithm": "rsaEncryption",
+    "key_size": 2048,
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtBKQNv3y9TsGYIcF/HCQm52rN/nVL9ND4VPqovb5IjwH37449gyQXDZoVVbndKVqvusHasCYluJSxFwi+UaWsgxRjt0UZNaR0/DGVFoOoTNq3VIco+elCiXII7RMgoetJh4blYxER8NAV2dFHxZZ6NmSqekvkAs4XjnzHVVl7idsHJ3asyZNVMj4I7YwnAGHTPUtSS4huy2klHcax3lzH8R63YZfEnWsyzF36GZt+Og+R1FhBb03eY6b6HuoUWHH61BegbdbtfFgmdxj+eMwuKE0TQLzVg/V5Tw1nGj4UkVeXIVq3jahh1MKpvBRlBe9QvdSoj40THSwrZFVXa60mwIDAQAB"
+  },
+  "extensions": [
+    {
+      "oid": {
+        "dotted_string": "2.5.29.15",
+        "name": "keyUsage"
+      },
+      "critical": true,
+      "value": {
+        "digital_signature": true,
+        "key_encipherment": true
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.37",
+        "name": "extendedKeyUsage"
+      },
+      "critical": false,
+      "value": [
+        {
+          "dotted_string": "1.3.6.1.5.5.7.3.1",
+          "name": "serverAuth"
+        },
+        {
+          "dotted_string": "1.3.6.1.5.5.7.3.2",
+          "name": "clientAuth"
+        }
+      ]
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.17",
+        "name": "subjectAltName"
+      },
+      "critical": false,
+      "value": [
+        {
+          "type": "DNSName",
+          "dnsname_value": "trunk.bank.gov.ua"
+        },
+        {
+          "type": "DNSName",
+          "dnsname_value": "owa.bank.gov.ua"
+        },
+        {
+          "type": "DNSName",
+          "dnsname_value": "sportal.bank.gov.ua"
+        },
+        {
+          "type": "DNSName",
+          "dnsname_value": "owas.bank.gov.ua"
+        },
+        {
+          "type": "DNSName",
+          "dnsname_value": "mysites.bank.gov.ua"
+        }
+      ]
+    },
+    {
+      "oid": {
+        "dotted_string": "1.3.6.1.4.1.311.20.2",
+        "name": "Unknown OID"
+      },
+      "critical": false,
+      "value": {
+        "hex": "0c29d097d0b0d185d0b8d181d182205745422dd0bfd0bed180d182d0b0d0bbd0b020285253412070313029"
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "1.3.6.1.4.1.311.21.7",
+        "name": "szOIDCertificateTemplate"
+      },
+      "critical": false,
+      "value": {
+        "hex": "3014060f2a8624020101010b8ba9933d01040b020100"
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "1.3.6.1.5.5.7.48.1.5",
+        "name": "OCSPNoCheck"
+      },
+      "critical": false
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.31",
+        "name": "cRLDistributionPoints"
+      },
+      "critical": false,
+      "value": {
+        "distribution_points": [
+          {
+            "name": [
+              {
+                "type": "UniformResourceIdentifier",
+                "uniformresourceidentifier_value": "http://ca-nbu.bank.gov.ua/public/crl/00000008.crl"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.46",
+        "name": "freshestCRL"
+      },
+      "critical": false,
+      "value": {
+        "distribution_points": [
+          {
+            "name": [
+              {
+                "type": "UniformResourceIdentifier",
+                "uniformresourceidentifier_value": "http://ca-nbu.bank.gov.ua/public/crl/00000008F.crl"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.35",
+        "name": "authorityKeyIdentifier"
+      },
+      "critical": false,
+      "value": {
+        "key_identifier": "92c1297ab6d3f13632794d40b67ff5ddf627a96f"
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "2.5.29.14",
+        "name": "subjectKeyIdentifier"
+      },
+      "critical": false,
+      "value": {
+        "digest": "0abb3a535a08a770f534b285ec941322f9b15639"
+      }
+    },
+    {
+      "oid": {
+        "dotted_string": "1.2.804.2.1.1.1.11.23742909.2.3.1",
+        "name": "Unknown OID"
+      },
+      "critical": false,
+      "value": {
+        "hex": "04202dde19dd0859fee8efb612dceb48f3a41de7844fae966d395d0fca286bd9f7a3"
+      }
+    }
+  ]
+}
+
+  },
+  "ocsp_no_check": {
+    "raw": "MIIEHzCCAwegAwIBAgIQeWQSiFUwr4ZUyMVYfZt7ojANBgkqhkiG9w0BAQsFADA+MQswCQYDVQQGEwJQVDENMAsGA1UECgwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xDTALBgNVBAMMBEVDQ0UwHhcNMTUwMTI4MTExNzQ0WhcNMTYwMTI4MTExNzQ0WjBoMQswCQYDVQQGEwJQVDEPMA0GA1UECAwGTGlzYm9uMQ8wDQYDVQQHDAZMaXNib24xDTALBgNVBAoMBFNDRUUxDTALBgNVBAsMBEVDQ0UxGTAXBgNVBAMMEG9jc3AuZWNjZS5nb3YucHQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7YVCIUf5dlw4Yteu8Dz6P03GgeCN0gfi3e9McULNSSSBVfFVk0qUyHjDXTPQlB6/ijDAKHH3ziouwNBppZeKfK60s8dN+cViaM08vte/nU3ffYjQoc+kNGo7RGy8IBq6kvqojAgcTYKJY0jZt52Sy+ae4tzZ3fdDT0eMVAveRkeEFDJYehQTY33cDrpBOFADFa/atxptwhBGpYPGKkNK9OH/YlddaaoY1xJqKkg9tx+RWLU8tTPkgRtdqQUx59cPtW3ilz46mAIH37SkjK8baij77zKF/0LxfW6S+VuzyKLLgfbbd1WzHIPNYD0iY4YIIjWzSU5aJbSKwG76vrApRAgMBAAGjge4wgeswIwYDVR0RBBwwGoYYaHR0cHM6Ly9vY3NwLmVjY2UuZ292LnB0MA4GA1UdDwEB/wQEAwID6DATBgNVHSUEDDAKBggrBgEFBQcDATARBglghkgBhvhCAQEEBAMCBkAwHQYDVR0OBBYEFK18WetAk2Bo5LTuqF22I1g8AFHzMB8GA1UdIwQYMBaAFFkLZsz6exaYaA72XADzua3ppjp0MDsGA1UdIAQ0MDIwMAYEVR0gADAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmVjY2UuZ292LnB0L2RwYzAPBgkrBgEFBQcwAQUEAgUAMA0GCSqGSIb3DQEBCwUAA4IBAQBBGe2bBXzIPqdUxBgqjPaQV1g1aAkTFJvxBgJN3NkmlOeflyYQ382ncDDkETinWnDd9jzxgzkd85zNgBL0LZ0Bpg2tC9NHZj7Bg9G4t1VqLjGn6Tek6AhiyhGXfSoMh7YoqTHoxviECOaH8d0R0ZZVy5hmylzu+qidz5qS/WW52XKTvbHm8otgAAhJxJSS5yYf8DiQzp6l299IApAGElX7YuZaEQnmcNIbNwmYJI94YgWQ+QHtomJGYafY8dmF845ESnXZhvRM+G7LOTisnOPeSVDIU76wvApyQ3k36g9LDXnNq7Rdq0dUzTBsRU8nvqP6JvQZ1IMas4rGKa99A9AV",
+    "parsed": {
+      "version": "3",
+      "serial_number": "161356193060596354220494638684711910306",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "CN=ECCE,OU=ECEstado,O=SCEE,C=PT",
+      "issuer": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "PT"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "SCEE"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          },
+          "value": "ECEstado"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "ECCE"
+        }
+      ],
+      "validity": {
+        "not_before": "2015-01-28T11:17:44",
+        "not_after": "2016-01-28T11:17:44"
+      },
+      "subject_str": "CN=ocsp.ecce.gov.pt,OU=ECCE,O=SCEE,L=Lisbon,ST=Lisbon,C=PT",
+      "subject": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "PT"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          },
+          "value": "Lisbon"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          },
+          "value": "Lisbon"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "SCEE"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          },
+          "value": "ECCE"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "ocsp.ecce.gov.pt"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu2FQiFH+XZcOGLXrvA8+j9NxoHgjdIH4t3vTHFCzUkkgVXxVZNKlMh4w10z0JQev4owwChx984qLsDQaaWXinyutLPHTfnFYmjNPL7Xv51N332I0KHPpDRqO0RsvCAaupL6qIwIHE2CiWNI2bedksvmnuLc2d33Q09HjFQL3kZHhBQyWHoUE2N93A66QThQAxWv2rcabcIQRqWDxipDSvTh/2JXXWmqGNcSaipIPbcfkVi1PLUz5IEbXakFMefXD7Vt4pc+OpgCB9+0pIyvG2oo++8yhf9C8X1ukvlbs8iiy4H223dVsxyDzWA9ImOGCCI1s0lOWiW0isBu+r6wKUQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.17",
+            "name": "subjectAltName"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "UniformResourceIdentifier",
+              "uniformresourceidentifier_value": "https://ocsp.ecce.gov.pt"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": true,
+          "value": {
+            "content_commitment": true,
+            "digital_signature": true,
+            "key_agreement": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.16.840.1.113730.1.1",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "03020640"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "ad7c59eb40936068e4b4eea85db623583c0051f3"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "590b66ccfa7b1698680ef65c00f3b9ade9a63a74"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.32",
+            "name": "certificatePolicies"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_identifier": {
+                  "dotted_string": "2.5.29.32.0",
+                  "name": "Unknown OID"
+                },
+                "policy_qualifiers": [
+                  "http://www.ecce.gov.pt/dpc"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.5.5.7.48.1.5",
+            "name": "OCSPNoCheck"
+          },
+          "critical": false
+        }
+      ]
+    }
+  },
+  "szoid_template": {
+    "raw": "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",
+    "parsed": {
+      "version": "3",
+      "serial_number": "569195170459880425324640",
+      "signature_algorithm": "sha512WithRSAEncryption",
+      "issuer_str": "CN=CERN Grid Certification Authority,DC=cern,DC=ch",
+      "issuer": [
+        {
+          "value": "ch",
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          }
+        },
+        {
+          "value": "cern",
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          }
+        },
+        {
+          "value": "CERN Grid Certification Authority",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2015-03-22T01:56:04",
+        "not_after": "2016-03-21T01:56:04"
+      },
+      "subject_str": "CN=aipanda047.cern.ch,OU=computers,DC=cern,DC=ch",
+      "subject": [
+        {
+          "value": "ch",
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          }
+        },
+        {
+          "value": "cern",
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          }
+        },
+        {
+          "value": "computers",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "aipanda047.cern.ch",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 4096,
+        "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6H8ILej3SzyUNiTKr8BBbGnw+1fOdqvN9ZuoSHcRgyWSTPDT3BtZtR275b9UkOHLaXokL0HEfAWXybsi4BnVKwBFiC3Bq9ilL1ELkY9gQL/EetNJRRxLk0nHynqYVDUFO0x5T+pCiXkJzz3ydbZw8Cl7MWgiIEKQsSKRFfR8ht7oQsLykGe4//zA8TL6URYJpKz/cKmq76iYEQ5H1m+wr31BiDx54G8O6MzdnVP1JBh9MToKtDXFnW1vYzDBE1qPIo+nC5SAfcwKEofKqCQpoU1fx55mYftzDmpIuVlv2sNYQodA5dy/czN+6ROPci1GINivRzg+yLN1qw3hVkg6EBZtQpHxvrxFeIUvyKGf0SDgRCaQmswmTNocx8qoiQhTFZ4VZbOhLExTO1sCqIGJZjudD3IDEaGXXIHHSWTll18FNiA7Ig8wDJb1gZbXV7uisXE25WrcQaOt+kfW4vr1tsZLydd/wnCB4ybvAdIMosL+o2K1Fp1sPVOH9BvW/CTYkdfZ2BdpCT0ydODSLcXVSjTSPgWRTzuRQmJXCvVKbZsCnzDHEANfOx+sbDj9971bxFL1IouQ43KB6C/DaEy5m4BP8Mf4U2IGJahhPL+4pUsUnUlol1NtP1FLzKTHS2BU/9MsXC4gBUxVm4qJHK+kqPIthIrj4dDx0mBzziNe5QkCAwEAAQ=="
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectAltName",
+            "dotted_string": "2.5.29.17"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "DNSName",
+              "dnsname_value": "panda.cern.ch"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "pandamon.cern.ch"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "aipanda047.cern.ch"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "0252c55dfdd99479af51c23799da102a5007b661"
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "a5a0fd6658fdb9dd7ae1b29d9fa3d1e5501894e7"
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://cafiles.cern.ch/cafiles/crl/CERN%20Grid%20Certification%20Authority.crl"
+                  },
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "ldap:///CN=CERN%20Grid%20Certification%20Authority,CN=CERNPKI05,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=cern,DC=ch?certificateRevocationList?base?objectClass=cRLDistributionPoint"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://cafiles.cern.ch/cafiles/certificates/CERN%20Grid%20Certification%20Authority.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "ldap:///CN=CERN%20Grid%20Certification%20Authority,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=cern,DC=ch?cACertificate?base?objectClass=certificationAuthority"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "OCSP",
+                  "dotted_string": "1.3.6.1.5.5.7.48.1"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://ocsp.cern.ch/ocsp"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "szOIDCertificateTemplate",
+            "dotted_string": "1.3.6.1.4.1.311.21.7"
+          },
+          "critical": false,
+          "value": {
+            "template_id": "1.3.6.1.4.1.311.21.8.7301129.5981837.14370219.3652279.10496098.30.98395.12047147",
+            "major_version": 100,
+            "minor_version": 22
+          }
+        },
+        {
+          "oid": {
+            "name": "extendedKeyUsage",
+            "dotted_string": "2.5.29.37"
+          },
+          "critical": false,
+          "value": [
+            {
+              "name": "clientAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.2"
+            },
+            {
+              "name": "serverAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.1"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "certificatePolicies",
+            "dotted_string": "2.5.29.32"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.96.10.4.2.2.2.0"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.2.840.113612.5.2.2.1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "szOIDApplicationCertPolicies",
+            "dotted_string": "1.3.6.1.4.1.311.21.10"
+          },
+          "critical": false,
+          "value": {
+            "hex": "3018300a06082b06010505070302300a06082b06010505070301"
+          }
+        }
+      ]
+    }
+  },
+  "ip_network": {
+    "raw": "MIIDwzCCAyygAwIBAgIOQjAxMDAwMDAwMDg5OEQwDQYJKoZIhvcNAQEFBQAwLDELMAkGA1UEBgwCQ04xEDAOBgNVBAoMB1NJTk9QRUMxCzAJBgNVBAMMAkNBMB4XDTEzMTExMzAwMDAwMFoXDTE4MTExMzAwMDAwMFowWDELMAkGA1UEBhMCQ04xCzAJBgNVBAcMAkJKMRAwDgYDVQQKDAdTSU5PUEVDMRAwDgYDVQQLDAdTSU5PUEVDMRgwFgYDVQQDDA9jcm0uYnlwYy5jb20uY24wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMdZa+ku1ynRZRtcspXWKi9v3AYi3Ovy6hz4XATIapZ0YwuiIooC57LIOjNUZ2AqJc3+JMLcTLF+GR1IVaV4GG7M9+cPeZzsSchs2jV9Dmtq2s2njii/HfR1QkPOdMSFLftCd9ehdeh3fdEWNeA/vqL3DjRB6qGICswb6bXCy2eRAgMBAAGjggG6MIIBtjALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFHH///TiTOZjjkDz+CTcdvWEcrx4MB0GA1UdDgQWBBQpQfkpvT9cQAqRzcHlCr3o8+xkFTBEBgkqhkiG9w0BCQ8ENzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcwKgYDVR0RBCMwIYcOMTAuMjQ2LjMuMjIvMjOCD2NybS5ieXBjLmNvbS5jbjBDBgNVHR8EPDA6MDigNqA0hjJodHRwOi8veGttcy5zaW5vcGVjLmNvbS9TWkF1dGhTZXJ2aWNlL0NSTENlcnRpLkNSTDA5BggrBgEFBQcBAQQtMCswKQYIKwYBBQUHMAGGHWh0dHA6Ly9vY3NwLnNpbm9wZWMuY29tOjg4MDAvMCAGCisGAQQBqUNkBQgEEhYQMDAwMTFGNTE0MzcwODc5NDAgBgorBgEEAalDZAUJBBIWEDAwMDExRjUxNDM3MDg3OTQwEgYKKwYBBAGpQ2QCAQQEFgIxOTANBgkqhkiG9w0BAQUFAAOBgQAPhNYCTSscLSgmnCFVB426bQdoKNQRNg657H+YBNo0hvECteCFk3uf1EssKRt7zqAdHqW15q4WirbwqmGLArUMc+AL+4i7PBzPE+iXxWFv/kE8CacrejlDqqdsbdcAp/Vpd5L7Nc5R+iQGkcqim0BfpapUHlP93dPivoks/zAPnw==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "1342457208663178030817153985886276",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "CN=CA,O=SINOPEC,C=CN",
+      "issuer": [
+        {
+          "value": "CN",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "SINOPEC",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "CA",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2013-11-13T00:00:00",
+        "not_after": "2018-11-13T00:00:00"
+      },
+      "subject_str": "CN=crm.bypc.com.cn,OU=SINOPEC,O=SINOPEC,L=BJ,C=CN",
+      "subject": [
+        {
+          "value": "CN",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "BJ",
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          }
+        },
+        {
+          "value": "SINOPEC",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "SINOPEC",
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          }
+        },
+        {
+          "value": "crm.bypc.com.cn",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHWWvpLtcp0WUbXLKV1iovb9wGItzr8uoc+FwEyGqWdGMLoiKKAueyyDozVGdgKiXN/iTC3EyxfhkdSFWleBhuzPfnD3mc7EnIbNo1fQ5ratrNp44ovx30dUJDznTEhS37QnfXoXXod33RFjXgP76i9w40QeqhiArMG+m1wstnkQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": false,
+          "value": {
+            "content_commitment": true,
+            "data_encipherment": true,
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "71fffff4e24ce6638e40f3f824dc76f58472bc78"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "2941f929bd3f5c400a91cdc1e50abde8f3ec6415"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.2.840.113549.1.9.15",
+            "name": "smimeCapabilities"
+          },
+          "critical": false,
+          "value": {
+            "capabilities": [
+              {
+                "capability_id": "1.2.840.113549.3.2",
+                "paramters": [
+                  128
+                ]
+              },
+              {
+                "capability_id": "1.2.840.113549.3.4",
+                "paramters": [
+                  128
+                ]
+              },
+              {
+                "capability_id": "1.3.14.3.2.7"
+              },
+              {
+                "capability_id": "1.2.840.113549.3.7"
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.17",
+            "name": "subjectAltName"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "IPAddress",
+              "ipaddress_value": "31302e3234362e332e32322f3233"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "crm.bypc.com.cn"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.31",
+            "name": "cRLDistributionPoints"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://xkms.sinopec.com/SZAuthService/CRLCerti.CRL"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.5.5.7.1.1",
+            "name": "authorityInfoAccess"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "dotted_string": "1.3.6.1.5.5.7.48.1",
+                  "name": "OCSP"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://ocsp.sinopec.com:8800/"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.4.1.5315.100.5.8",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "161030303031314635313433373038373934"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.4.1.5315.100.5.9",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "161030303031314635313433373038373934"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.4.1.5315.100.2.1",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "16023139"
+          }
+        }
+      ]
+    }
+  },
+  "unknown_oid": {
+    "raw": "MIIFgjCCA2qgAwIBAgIUUHI1QWhGiLXJbKq4J68Oty9NAnUwDQYJKoZIhvcNAQELBQAwXzELMAkGA1UEBhMCRlIxDzANBgNVBAoMBk9yYW5nZTEXMBUGA1UECwwOMDAwMiAzODAxMjk4NjYxJjAkBgNVBAMMHU9yYW5nZSBEZXZpY2VzIEF1dGggU2VydmVyIENBMB4XDTEyMDEyOTIzMDAwMFoXDTE3MDEyODIzMDAwMFowgbQxCzAJBgNVBAYTAkZSMQ8wDQYDVQQIEwZGUkFOQ0UxFjAUBgNVBAcMDUF1YmVydmlsbGllcnMxDzANBgNVBAoMBk9yYW5nZTEOMAwGA1UECwwFREVQRlMxHzAdBgNVBAMMFnhib3gtcHJlcHJvZC5vcmFuZ2UuZnIxOjA4BgkqhkiG9w0BCQEWK2RlcGZzX3NjYV90dm5mLmluZm9AbGlzdC5vcmFuZ2UtZnRncm91cC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSraZFg8NAo8RYzTEi9Rv9L2NQp+SIbQo1ifK0ii55wXXP9hV6aWVGGRkhO6uP/7L+OP7MkZplgBvxtgQZFYYTHmsK7YwEmzITCyHXINdd7rB1FlaBQSwuHugwhu0KIuFn/3Hc94bNJ0HMKlMrZIrNbHEZJmnANRBJTiDmkDIuB8y5y8Cm1POvYDWc73uqUroHiEmJxWvVosyAdpWXXpaQWmZzRBM+ogZc/9XY/4mfOAq1UqJ4V9PS2F5be6L/uqiJTmzYAQn4v75ounPIvBSBk6iBIOM9pjiy1I7CXRJLm0r3yxjYRTHVeas1HjkpkcuCFH5BJeZViWGvz/WnUk/hAgMBAAGjgd8wgdwwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBaAwIAYDVR0lAQH/BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBQt8PFwx9txr5gJRZtNg9YZ0Qqw6jBmBgNVHSMEXzBdgBRWVDHPxLsczMatkko8+phMfY8l66FCgUBDPUZSLE89T3JhbmdlLE9VPTAwMDIgMzgwMTI5ODY2LENOPU9yYW5nZSBEZXZpY2VzIEF1dGggU2VydmVyIENBggEFMBYGA1UdIAQPMA0wCwYJKoF6ARAMBwYBMA0GCSqGSIb3DQEBCwUAA4ICAQCLPf4pFtdn51901RyUd1bx1QQ1sR87gYJyl5FYUwxzsjJLKBaeIV9qerXCqoijGAoL+LlQ9PvRIc18U15J6IaTVFgo10oIRQbbSwBTq/Q3mhhZSPN5BYXnxOuE7QRdkX6NGfT5OcIy0EYvYrxS5xEVLNUD4C1P0nAxMoo6crFwDeRqmb9iUVrz3XkVGIGk7Wg/oSCMM33HtjnGucyX1997QK6Dhp6hYu1y1Ksz8QaL/MJhLdcOgD5xq15UN5WixvqYqGGLr+p13hjqaAHaSWoGBgaWwAF8JvpUlvfqOpUpRf5zwoK6bUQox6waf+iVqmlS4OZwXtfvxFDFpzaI0lW7sXIxc1umF27nBapdn8r6WwYKFFZB/Dqs2FfJzVQVz9YE60G+5cxlvZg1KOwanJpVsCcejRw0/vSpvCF0pz3V3s4/ilYKzDaUpPyXXpX7JVMS+PxFSVhfLyMHSv9/2bf39N7JANdUnaLYveS4qhyucq66/6poCRT0X6hdG1iW/UjF2K8Y6gWTArdj1NO6qfx/FsxayTCObTjPV73/X0/1fRk8iRl2A7F7ZVX8bJJNThBa7hYkdvTaGAhZAZTuURHN1a69ww4+I7zqVIw+sP7gL8EylxOLLlrmoTtjiN1tpIP9VEXrDryVBnyWAYmGi0kxjaL10L6orZn6zUTa+ZsCxA==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "459266185826653831282929035879930561055150637685",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "CN=Orange Devices Auth Server CA,OU=0002 380129866,O=Orange,C=FR",
+      "issuer": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "FR"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "Orange"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          },
+          "value": "0002 380129866"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "Orange Devices Auth Server CA"
+        }
+      ],
+      "validity": {
+        "not_before": "2012-01-29T23:00:00",
+        "not_after": "2017-01-28T23:00:00"
+      },
+      "subject_str": "emailAddress=depfs_sca_tvnf.info@list.orange-ftgroup.com,CN=xbox-preprod.orange.fr,OU=DEPFS,O=Orange,L=Aubervilliers,ST=FRANCE,C=FR",
+      "subject": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "FR"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          },
+          "value": "FRANCE"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          },
+          "value": "Aubervilliers"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "Orange"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          },
+          "value": "DEPFS"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "xbox-preprod.orange.fr"
+        },
+        {
+          "oid": {
+            "dotted_string": "1.2.840.113549.1.9.1",
+            "name": "emailAddress"
+          },
+          "value": "depfs_sca_tvnf.info@list.orange-ftgroup.com"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0q2mRYPDQKPEWM0xIvUb/S9jUKfkiG0KNYnytIouecF1z/YVemllRhkZITurj/+y/jj+zJGaZYAb8bYEGRWGEx5rCu2MBJsyEwsh1yDXXe6wdRZWgUEsLh7oMIbtCiLhZ/9x3PeGzSdBzCpTK2SKzWxxGSZpwDUQSU4g5pAyLgfMucvAptTzr2A1nO97qlK6B4hJicVr1aLMgHaVl16WkFpmc0QTPqIGXP/V2P+JnzgKtVKieFfT0theW3ui/7qoiU5s2AEJ+L++aLpzyLwUgZOogSDjPaY4stSOwl0SS5tK98sY2EUx1XmrNR45KZHLghR+QSXmVYlhr8/1p1JP4QIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": false,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": true,
+          "value": {
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": true,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "2df0f170c7db71af9809459b4d83d619d10ab0ea"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "authority_cert_issuer": [
+              {
+                "type": "RFC822Name",
+                "rfc822name_value": "C=FR,O=Orange,OU=0002 380129866,CN=Orange Devices Auth Server CA"
+              }
+            ],
+            "authority_cert_serial_number": "5",
+            "key_identifier": "565431cfc4bb1cccc6ad924a3cfa984c7d8f25eb"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.32",
+            "name": "certificatePolicies"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_identifier": {
+                  "dotted_string": "1.2.250.1.16.12.7.6.1",
+                  "name": "Unknown OID"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "more_bad_unicode": {
+    "raw": "MIICNzCCAeGgAwIBAgIQBfEKy/KFjzvxHsdew7JkBTANBgkqhkiG9w0BAQUFADA+MQswCQYDVQQGEwJDTjEvMC0GA1UEAx4mVAlnl3cBTrpsEWU/XpxlP1KhWSdThX78VAhP4WBve6F0Bnz7ft8wHhcNMTAxMTI0MDkxMzMzWhcNMTUxMDI5MDkxMzMzWjAXMRUwEwYDVQQDEwwxNzIuMTYuMC4xMTMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKTXHsV6QzSMpT9uqkhPIMAArXkTQuMeonS2mPjbEqsmYcDhYin5x84LjSYFoce2XDFqz/3/ykD6YWSFoC3nwfx4Wa12j0ikkJf14AsS0VG3ckTvrDtYjhHywo8sOSU9+0lX97Kjawiw7UpdTMBv41pki3nxHKgeiC3HJTfb7rlHAgMBAAGjgZ0wgZowHwYDVR0jBBgwFoAUVZDJ/f78wDuN8bMnRJgXiQQwQIQwHQYDVR0OBBYEFLtdWBwB9+i/Tg4i13x/rgamTv/bMAwGA1UdEwQFMAMBAQAwSgYDVR0fBEMwQTA/oD2gO4Y5aHR0cDovL7yqwdbKocjLw/HV/riu1f7O8bTzzPzX27rP0MXPorncwO3Ptc2zL2NybC9jcmwuY3JsMA0GCSqGSIb3DQEBBQUAA0EAVGvdNS1/pznlGuj0sA+coxMTQpKQz63/zEuUMuIDyZw6lEAx3NUS9uX48uxlfAqD5uHt/dHEl3BHGFkh33AQ1g==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "7897702504301335650273402520706638853",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "CN=\\E5\\90\\89\\E6\\9E\\97\\E7\\9C\\81\\E4\\BA\\BA\\E6\\B0\\91\\E6\\94\\BF\\E5\\BA\\9C\\E6\\94\\BF\\E5\\8A\\A1\\E5\\A4\\A7\\E5\\8E\\85\\E7\\BB\\BC\\E5\\90\\88\\E4\\BF\\A1\\E6\\81\\AF\\E7\\AE\\A1\\E7\\90\\86\\E7\\B3\\BB\\E7\\BB\\9F,C=CN",
+      "issuer": [
+        {
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          },
+          "value": "CN"
+        },
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "吉林省人民政府政务大厅综合信息管理系统"
+        }
+      ],
+      "validity": {
+        "not_before": "2010-11-24T09:13:33",
+        "not_after": "2015-10-29T09:13:33"
+      },
+      "subject_str": "CN=172.16.0.113",
+      "subject": [
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "172.16.0.113"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk1x7FekM0jKU/bqpITyDAAK15E0LjHqJ0tpj42xKrJmHA4WIp+cfOC40mBaHHtlwxas/9/8pA+mFkhaAt58H8eFmtdo9IpJCX9eALEtFRt3JE76w7WI4R8sKPLDklPftJV/eyo2sIsO1KXUzAb+NaZIt58RyoHogtxyU32+65RwIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "5590c9fdfefcc03b8df1b3274498178904304084"
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "bb5d581c01f7e8bf4e0e22d77c7fae06a64effdb"
+          }
+        },
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": false,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "687474703a2f2fbcaac1d6caa1c8cbc3f1d5feb8aed5fecef1b4f3ccfcd7dbbacfd0c5cfa2b9dcc0edcfb5cdb32f63726c2f63726c2e63726c"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "bad_asn1_string": {
+    "raw": "MIIFDTCCA/WgAwIBAgIUMDAwMDAwMDAwMDAwMDAwMDQyNDMwDQYJKoZIhvcNAQEFBQAwggFMMRYwFAYDVQQtAw0AU0ZQOTExMjI5SU1BMRkwFwYDVQQHDBDDgWx2YXJvIE9icmVnw7NuMRkwFwYDVQQIExBEaXN0cml0byBGZWRlcmFsMQswCQYDVQQGEwJNWDEOMAwGA1UEERMFMDEwMjAxLDAqBgNVBAkMI0luc3VyZ2VudGVzIFN1ciAjMTczNSBHdWFkYWx1cGUgSW5uMS8wLQYDVQQDEyZBdXRvcmlkYWQgQ2VydGlmaWNhZG9yYSBkZSBDb21wcmFuZXQgNTEjMCEGA1UECxMaVW5pZGFkIGRlIEdvYmllcm5vIERpZ2l0YWwxLDAqBgNVBAoMI1NlY3JldGFyw61hIGRlIGxhIEZ1bmNpw7NuIFDDumJsaWNhMS0wKwYJKoZIhvcNAQkBFh5hY19jbmV0NUBmdW5jaW9ucHVibGljYS5nb2IubXgwHhcNMTUwMzA2MDAwMDAwWhcNMTYwMzA1MDAwMDAwWjCCARIxEDAOBgNVBAcTB1RsYWxwYW4xGTAXBgNVBAgTEERpc3RyaXRvIEZlZGVyYWwxCzAJBgNVBAYTAk1YMQ4wDAYDVQQREwUxNDAyMDE1MDMGA1UECRMsSW5zdXJnZW50ZXMgU3VyIE5vIDM0ODMsIENvbC4gTWlndWVsIEhpZGFsZ28xMTAvBgNVBAwTKFNTTCBJbnN0YW5jaWEgT2ZpY2luYSBQb3N0YWwgRWxlY3Ryb25pY2ExGzAZBgNVBAMTEm9wZS5kaWNvbnNhLmdvYi5teDEgMB4GA1UECxMXR2VyZW5jaWEgZGUgSW5mb3JtYXRpY2ExHTAbBgNVBAoTFERJQ09OU0EgUy5BLiBERSBDLlYuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC37vZL233bMZ99UahBjnnImz3sf8yJmP2XqovXSz8Hhrc0TxKcqWOjROLeGXgFRpYGVmixPVLubXV/Bu4+Kn8cwBlxbBOmuVJ3zWWCCNvHZsq2FLbwamgzT34SH6IhaeqbiKSjUpWPYV+1l798PGGtPTBUXRbsC6+8S4JqLf6GiQIDAQABo4GgMIGdMB8GA1UdIwQYMBaAFBYGY/93cBAcAp27VRHbxRweybhrMB0GA1UdDgQWBBQUpqFOpyQE0beggjEuyiBWK/6tTDAnBgNVHSUEIDAeBggrBgEFBQcDBAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8GA1UdEwEB/wQFMAMCAQAwDgYDVR0PAQH/BAQDAgPoMBEGCWCGSAGG+EIBAQQEAwIF4DANBgkqhkiG9w0BAQUFAAOCAQEAQ0sfU/gt/lYBoW+6YMfWWIJlDWpTKxhjmP/8YQLGKPF0KmEsMYyqsKlz2M1BdxzaAQoL1KDT1vxNCeZi1ofMLvNDoK6qWKgmkofJLumQyBmHkEVb/pEIeWRBlKXQRpAshJw9za3AcvdYjOoLU9Xq1EMVEj29nI1p3FeC1t3BIgew9+QNTmo8Xs0OQ6tqNvQnhQvuTbVU+acgfqr/EaqLIDyp7dY97FrwRAEc7XRY7vMg4Pi84CBRvQJH8P7PTw8jmxx7rMCx+ygAjeIxyUPPVRMLEfAqQYjpatm84HCHWX9DR9WslyjHUhS67GrZf/6n39w1sF4sz1mRwDdx9s/5Cw==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "275106190556405255191281850864241509582360425523",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "emailAddress=ac_cnet5@funcionpublica.gob.mx,O=Secretar\\C3\\ADa de la Funci\\C3\\B3n P\\C3\\BAblica,OU=Unidad de Gobierno Digital,CN=Autoridad Certificadora de Compranet 5,street=Insurgentes Sur #1735 Guadalupe Inn,postalCode=01020,C=MX,ST=Distrito Federal,L=\\C3\\81lvaro Obreg\\C3\\B3n,x500UniqueIdentifier=#030D00534650393131323239494D41",
+      "issuer": [
+        {
+          "value": "534650393131323239494d41",
+          "oid": {
+            "dotted_string": "2.5.4.45",
+            "name": "x500UniqueIdentifier"
+          }
+        },
+        {
+          "value": "Álvaro Obregón",
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          }
+        },
+        {
+          "value": "Distrito Federal",
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          }
+        },
+        {
+          "value": "MX",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "01020",
+          "oid": {
+            "dotted_string": "2.5.4.17",
+            "name": "postalCode"
+          }
+        },
+        {
+          "value": "Insurgentes Sur #1735 Guadalupe Inn",
+          "oid": {
+            "dotted_string": "2.5.4.9",
+            "name": "streetAddress"
+          }
+        },
+        {
+          "value": "Autoridad Certificadora de Compranet 5",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        },
+        {
+          "value": "Unidad de Gobierno Digital",
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          }
+        },
+        {
+          "value": "Secretaría de la Función Pública",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "ac_cnet5@funcionpublica.gob.mx",
+          "oid": {
+            "dotted_string": "1.2.840.113549.1.9.1",
+            "name": "emailAddress"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2015-03-06T00:00:00",
+        "not_after": "2016-03-05T00:00:00"
+      },
+      "subject_str": "O=DICONSA S.A. DE C.V.,OU=Gerencia de Informatica,CN=ope.diconsa.gob.mx,title=SSL Instancia Oficina Postal Electronica,street=Insurgentes Sur No 3483\\, Col. Miguel Hidalgo,postalCode=14020,C=MX,ST=Distrito Federal,L=Tlalpan",
+      "subject": [
+        {
+          "value": "Tlalpan",
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          }
+        },
+        {
+          "value": "Distrito Federal",
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          }
+        },
+        {
+          "value": "MX",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "14020",
+          "oid": {
+            "dotted_string": "2.5.4.17",
+            "name": "postalCode"
+          }
+        },
+        {
+          "value": "Insurgentes Sur No 3483, Col. Miguel Hidalgo",
+          "oid": {
+            "dotted_string": "2.5.4.9",
+            "name": "streetAddress"
+          }
+        },
+        {
+          "value": "SSL Instancia Oficina Postal Electronica",
+          "oid": {
+            "dotted_string": "2.5.4.12",
+            "name": "title"
+          }
+        },
+        {
+          "value": "ope.diconsa.gob.mx",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        },
+        {
+          "value": "Gerencia de Informatica",
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          }
+        },
+        {
+          "value": "DICONSA S.A. DE C.V.",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC37vZL233bMZ99UahBjnnImz3sf8yJmP2XqovXSz8Hhrc0TxKcqWOjROLeGXgFRpYGVmixPVLubXV/Bu4+Kn8cwBlxbBOmuVJ3zWWCCNvHZsq2FLbwamgzT34SH6IhaeqbiKSjUpWPYV+1l798PGGtPTBUXRbsC6+8S4JqLf6GiQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "160663ff7770101c029dbb5511dbc51c1ec9b86b"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "14a6a14ea72404d1b7a082312eca20562bfead4c"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.4",
+              "name": "emailProtection"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": true,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": true,
+          "value": {
+            "content_commitment": true,
+            "digital_signature": true,
+            "key_agreement": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.16.840.1.113730.1.1",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "030205e0"
+          }
+        }
+      ]
+    }
+  },
+  "bad_unicode": {
+    "raw": "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",
+    "parsed": {
+      "version": "3",
+      "serial_number": "666367779211873085951672496097810553088487027364",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "CN=Verizon Akamai SureServer CA G14-SHA2,OU=Cybertrust,O=Verizon Enterprise Solutions,L=Amsterdam,C=NL",
+      "issuer": [
+        {
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          },
+          "value": "NL"
+        },
+        {
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          },
+          "value": "Amsterdam"
+        },
+        {
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          },
+          "value": "Verizon Enterprise Solutions"
+        },
+        {
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          },
+          "value": "Cybertrust"
+        },
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "Verizon Akamai SureServer CA G14-SHA2"
+        }
+      ],
+      "validity": {
+        "not_before": "2016-03-21T08:27:16",
+        "not_after": "2017-03-21T08:27:12"
+      },
+      "subject_str": "CN=*.3dcontentcentral.com.br,OU=3D Content Central,O=Dassault Systemes SolidWorks Corporation,L=Waltham,ST=MA,C=US",
+      "subject": [
+        {
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          },
+          "value": "US"
+        },
+        {
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          },
+          "value": "MA"
+        },
+        {
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          },
+          "value": "Waltham"
+        },
+        {
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          },
+          "value": "Dassault Systemes SolidWorks Corporation"
+        },
+        {
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          },
+          "value": "3D Content Central"
+        },
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "*.3dcontentcentral.com.br"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwPKox20CjrmxR/9vH3+zgb2pUG8V3TVHZ0H5seUUVGNxc8Kz6u3aDrqUjcR8VDZYZRnjCpQDZ0w9F+ixW9IimHhKTnwicSArOrdOrW4QBbW2OkOx9ZpEk8o48lVlsAzIkMWzEz7PC8Af7XE8G1Nq7UYG20WgzxmIpI6h3FfKPQHH42syAghNgbT8bVAfejQCuaP4uPBiFUoS4VwISlwhrgZRld71vLjl7XFS69MwoI6yO2LTI45ehdB7U+puHz3OLVNP75NapqT+0qb46g3x7qhpqFjosO2NX7SUqaOUe3/dSJTYD8+moDwpcKx33UoodW8hEfo1o17FoxP3sc2xUQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": true,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "name": "certificatePolicies",
+            "dotted_string": "2.5.29.32"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_qualifiers": [
+                  "https://secure.omniroot.com/repository"
+                ],
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.6334.1.50"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "OCSP",
+                  "dotted_string": "1.3.6.1.5.5.7.48.1"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://vassg142.ocsp.omniroot.com"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "https://cacert.a.omniroot.com/vassg142.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "https://cacert.a.omniroot.com/vassg142.der"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectAltName",
+            "dotted_string": "2.5.29.17"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.com.br"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.com.cn"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.jp"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.cz"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.kr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.pl"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "2a2e336463ef6e74656e3463656c7472616c2e636f6d2e7472"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "*.3dcontentcentral.ru"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "name": "extendedKeyUsage",
+            "dotted_string": "2.5.29.37"
+          },
+          "critical": false,
+          "value": [
+            {
+              "name": "serverAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.1"
+            },
+            {
+              "name": "clientAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.2"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "f8bdfaaf7377c6c71bf94b4d11a7d133afaf7211"
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://vassg142.crl.omniroot.com/vassg142.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "9a1ae45333770b48ce63d922a46e2ead2ab33229"
+          }
+        }
+      ]
+    }
+  },
+  "duplicate_extension": {
+    "raw": "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",
+    "parsed": {
+      "version": "3",
+      "serial_number": "16065267168966799851",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "CN=m9zama.com,O=m9zama,ST=Okinawa,C=JP",
+      "issuer": [
+        {
+          "value": "JP",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "Okinawa",
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          }
+        },
+        {
+          "value": "m9zama",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "m9zama.com",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2016-05-18T02:13:43",
+        "not_after": "2026-05-16T02:13:43"
+      },
+      "subject_str": "CN=m9zama.com,O=m9zama,ST=Okinawa,C=JP",
+      "subject": [
+        {
+          "value": "JP",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        },
+        {
+          "value": "Okinawa",
+          "oid": {
+            "dotted_string": "2.5.4.8",
+            "name": "stateOrProvinceName"
+          }
+        },
+        {
+          "value": "m9zama",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "m9zama.com",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 4096,
+        "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzIrLhjPMJysshSQyXGOJOKlxcXns1z0H1syVK28gVHBy8kaoZSGWKxWL65CtNCgpBcgikadFi1l/kFyfPL+eGTxLBn/av02DdNRmH9RKVfMgs+Kfo5ttAWBD2cyC3NmYsEP+C5+8CqAQINoGsEMTgkfqIOeYk9BglRAfQ7J/S31Ubz0Dnbc4uNeztvUyxNjKeaJzMSPZ/bq5z4Iix7tVezQXZiuB5UHfHijxII6X2vEBbMMe2rZC8cXrgOZptLl2cbSFMMT/9DEUf9kpkPqAbHyG9HKqarhkTR5vIWqYGDHNT05JW4qgR91f3JAIyV6hpRpZxBnYn6FCFaJjjBdm1GkG70JzZthRb4Wvnafjcw6yLxQedwxxBKP6MSmJ+SPR8KyFF7fcjtw1FVp+4CT262A/f/mDHqycJIaog07yXttmE8PsYxzODufzl/z4amMRmFfaSCcHkgM3B6R8VJgQEstfm1TgZqvppGRTyR6G5bYKKlvOpSCrhRSp/bU4gyXh3+BriQCkfRuI2Tb158MIwSSC+O0FLKweLUJGoSUjnGc2iZvMo9N+UXTqilNY2aQd1ePAYHc58YEL1kYvZas8B03s526Q0PRRCuc0Ps6BvOggg6SCJfr+2ITs0iEw2WWee26OfpsFWWan2VuA8zdnVEOW7D2F3ekOkLbky3AKvEsCAwEAAQ=="
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "authority_cert_issuer": [
+              {
+                "type": "DirectoryName",
+                "directoryname_value": [
+                  {
+                    "value": "JP",
+                    "oid": {
+                      "dotted_string": "2.5.4.6",
+                      "name": "countryName"
+                    }
+                  },
+                  {
+                    "value": "Okinawa",
+                    "oid": {
+                      "dotted_string": "2.5.4.8",
+                      "name": "stateOrProvinceName"
+                    }
+                  },
+                  {
+                    "value": "m9zama",
+                    "oid": {
+                      "dotted_string": "2.5.4.10",
+                      "name": "organizationName"
+                    }
+                  },
+                  {
+                    "value": "m9zama.com",
+                    "oid": {
+                      "dotted_string": "2.5.4.3",
+                      "name": "commonName"
+                    }
+                  }
+                ]
+              }
+            ],
+            "authority_cert_serial_number": "17089979296128457340"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": false,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": false,
+          "value": {
+            "content_commitment": true,
+            "crl_sign": true,
+            "data_encipherment": true,
+            "decipher_only": true,
+            "digital_signature": true,
+            "encipher_only": true,
+            "key_agreement": true,
+            "key_cert_sign": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.3",
+              "name": "codeSigning"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.4",
+              "name": "emailProtection"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.8",
+              "name": "timeStamping"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.9",
+              "name": "OCSPSigning"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.2.1.21",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.2.1.22",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.1",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.4",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.3",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "2.16.840.1.113730.4.1",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.20.2.2",
+              "name": "Unknown OID"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "6c5aebb9c917420f9904702b36207e244e41f279"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.17",
+            "name": "subjectAltName"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "UniformResourceIdentifier",
+              "uniformresourceidentifier_value": "http://m9zama.com/"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.5.5.7.1.1",
+            "name": "authorityInfoAccess"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "dotted_string": "1.3.6.1.5.5.7.48.1",
+                  "name": "OCSP"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://m9zama.com/"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.31",
+            "name": "cRLDistributionPoints"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://m9zama.com/etc/ca.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.16.840.1.113730.1.1",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "03020146"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "d2616f9bb088d76e74886f692dd4cdc3e1df3b6b"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": false,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": false,
+          "value": {
+            "content_commitment": true,
+            "crl_sign": true,
+            "data_encipherment": true,
+            "decipher_only": true,
+            "digital_signature": true,
+            "encipher_only": true,
+            "key_agreement": true,
+            "key_cert_sign": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.3",
+              "name": "codeSigning"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.4",
+              "name": "emailProtection"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.8",
+              "name": "timeStamping"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.9",
+              "name": "OCSPSigning"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.2.1.21",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.2.1.22",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.1",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.4",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.10.3.3",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "2.16.840.1.113730.4.1",
+              "name": "Unknown OID"
+            },
+            {
+              "dotted_string": "1.3.6.1.4.1.311.20.2.2",
+              "name": "Unknown OID"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "6c5aebb9c917420f9904702b36207e244e41f279"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.17",
+            "name": "subjectAltName"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "UniformResourceIdentifier",
+              "uniformresourceidentifier_value": "http://m9zama.com/"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "1.3.6.1.5.5.7.1.1",
+            "name": "authorityInfoAccess"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "dotted_string": "1.3.6.1.5.5.7.48.1",
+                  "name": "OCSP"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://m9zama.com/"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.31",
+            "name": "cRLDistributionPoints"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://m9zama.com/etc/ca.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.16.840.1.113730.1.1",
+            "name": "Unknown OID"
+          },
+          "critical": false,
+          "value": {
+            "hex": "03020146"
+          }
+        }
+      ]
+    }
+  },
+  "empty_san": {
+    "raw": "MIICIjCCAYugAwIBAgIQM1cWvuUP4HHdSxf/p4rVHzANBgkqhkiG9w0BAQUFADBIMRUwEwYDVQQDEwxCTDI1MTJBQTAyMzQxGTAXBgNVBAMTEHN5c3RlbSBnZW5lcmF0ZWQxFDASBgNVBAMTC3NlbGYtc2lnbmVkMB4XDTEzMDUxNjEzNTAzOVoXDTE4MDUxNTEzNTAzOVowSDEVMBMGA1UEAxMMQkwyNTEyQUEwMjM0MRkwFwYDVQQDExBzeXN0ZW0gZ2VuZXJhdGVkMRQwEgYDVQQDEwtzZWxmLXNpZ25lZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvfZM/BEd9D3Khrla/Pcy/2+emWMqs/BHhJuJFvV2GGNxlnPHMah4Ej/ZWN+Ae+HIGj2Sb/8xUfLWvOut5WHIvXHHQFJFrFRJqIGH4bsSw9gc8o1RDx4aqkfhYnGnRuozN/OolY0pVW+WBXRO719Xw1UTOZxPXaHfTcSz9QhEW28CAwEAAaMNMAswCQYDVR0RBAIwADANBgkqhkiG9w0BAQUFAAOBgQA3MkCQRvmTvZRrKiwI/FklVW+9sLqb836mWxJH5CKp0hT8mdkhjDdfZ+VfgJTtYDGtaTMe1rvKYNeaNlepW8kV1xK5XwKGDHhQ87v2jRceiFMmWVEGmeMgn/M7uLNAeCXH80c47I0AoPESp8rSNUjyUNXPMrEd4y15jorC9CLHNA==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "68242818948976658615652131465551598879",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "CN=self-signed,CN=system generated,CN=BL2512AA0234",
+      "issuer": [
+        {
+          "value": "BL2512AA0234",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        },
+        {
+          "value": "system generated",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        },
+        {
+          "value": "self-signed",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2013-05-16T13:50:39",
+        "not_after": "2018-05-15T13:50:39"
+      },
+      "subject_str": "CN=self-signed,CN=system generated,CN=BL2512AA0234",
+      "subject": [
+        {
+          "value": "BL2512AA0234",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        },
+        {
+          "value": "system generated",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        },
+        {
+          "value": "self-signed",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC99kz8ER30PcqGuVr89zL/b56ZYyqz8EeEm4kW9XYYY3GWc8cxqHgSP9lY34B74cgaPZJv/zFR8ta8663lYci9ccdAUkWsVEmogYfhuxLD2BzyjVEPHhqqR+FicadG6jM386iVjSlVb5YFdE7vX1fDVRM5nE9dod9NxLP1CERbbwIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "subjectAltName",
+            "dotted_string": "2.5.29.17"
+          },
+          "critical": false,
+          "value": []
+        }
+      ]
+    }
+  },
+  "gost_pubkey": {
+    "raw": "MIID0jCCA4GgAwIBAgITEgAU/Vz08e04hFjTFQAAABT9XDAIBgYqhQMCAgMwfzEjMCEGCSqGSIb3DQEJARYUc3VwcG9ydEBjcnlwdG9wcm8ucnUxCzAJBgNVBAYTAlJVMQ8wDQYDVQQHEwZNb3Njb3cxFzAVBgNVBAoTDkNSWVBUTy1QUk8gTExDMSEwHwYDVQQDExhDUllQVE8tUFJPIFRlc3QgQ2VudGVyIDIwHhcNMTYwOTEyMDUyNzEzWhcNMTYxMjEyMDUzNzEzWjCB4DEcMBoGCSqGSIb3DQEJARYNY2FAdWNwYXJtYS5ydTEXMBUGA1UEAwwOcmVnLnVjcGFybWEucnUxOzA5BgNVBAsMMtCh0LXRgNCy0LXRgCDRg9C00LDQu9C10L3QvdC+0Lkg0LPQtdC90LXRgNCw0YbQuNC4MSEwHwYDVQQKDBjQntCe0J4gItCj0KYg0J/QkNCg0JzQkCIxEzARBgNVBAcMCtCf0LXRgNC80YwxJTAjBgNVBAgMHDU5INCf0LXRgNC80YHQutC40Lkg0LrRgNCw0LkxCzAJBgNVBAYTAlJVMGMwHAYGKoUDAgITMBIGByqFAwICJAAGByqFAwICHgEDQwAEQPd04U5VgctclwQ8q2Prc5+y4lcIB9HbmXctoGc8h8LFVqA66ezxxag7+5jbFOzW8haX+lbp253WuNbnT0Vv0PyjggFwMIIBbDAOBgNVHQ8BAf8EBAMCBPAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0OBBYEFNLm24ncLs3/qntgKnaQx5mj1vaIMB8GA1UdIwQYMBaAFBUxfLCNGt5m1xWcSVKXFyS5AXqDMFkGA1UdHwRSMFAwTqBMoEqGSGh0dHA6Ly90ZXN0Y2EuY3J5cHRvcHJvLnJ1L0NlcnRFbnJvbGwvQ1JZUFRPLVBSTyUyMFRlc3QlMjBDZW50ZXIlMjAyLmNybDCBqQYIKwYBBQUHAQEEgZwwgZkwYQYIKwYBBQUHMAKGVWh0dHA6Ly90ZXN0Y2EuY3J5cHRvcHJvLnJ1L0NlcnRFbnJvbGwvdGVzdC1jYS0yMDE0X0NSWVBUTy1QUk8lMjBUZXN0JTIwQ2VudGVyJTIwMi5jcnQwNAYIKwYBBQUHMAGGKGh0dHA6Ly90ZXN0Y2EuY3J5cHRvcHJvLnJ1L29jc3Avb2NzcC5zcmYwCAYGKoUDAgIDA0EAjW677ARlGvyg0ceInQ08TP//lm+2BG29PL/yU/OYCusTcpTvvJb0jcNz8spQM5E06ghQEEleF4Z9ES/Ipv+dFg==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "401420555998231955232561292633095346773622108",
+      "signature_algorithm": "Unknown OID",
+      "issuer_str": "CN=CRYPTO-PRO Test Center 2,O=CRYPTO-PRO LLC,L=Moscow,C=RU,emailAddress=support@cryptopro.ru",
+      "issuer": [
+        {
+          "value": "support@cryptopro.ru",
+          "oid": {
+            "name": "emailAddress",
+            "dotted_string": "1.2.840.113549.1.9.1"
+          }
+        },
+        {
+          "value": "RU",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        },
+        {
+          "value": "Moscow",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "CRYPTO-PRO LLC",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "CRYPTO-PRO Test Center 2",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2016-09-12T05:27:13",
+        "not_after": "2016-12-12T05:37:13"
+      },
+      "subject_str": "C=RU,ST=59 \\D0\\9F\\D0\\B5\\D1\\80\\D0\\BC\\D1\\81\\D0\\BA\\D0\\B8\\D0\\B9 \\D0\\BA\\D1\\80\\D0\\B0\\D0\\B9,L=\\D0\\9F\\D0\\B5\\D1\\80\\D0\\BC\\D1\\8C,O=\\D0\\9E\\D0\\9E\\D0\\9E \\\"\\D0\\A3\\D0\\A6 \\D0\\9F\\D0\\90\\D0\\A0\\D0\\9C\\D0\\90\\\",OU=\\D0\\A1\\D0\\B5\\D1\\80\\D0\\B2\\D0\\B5\\D1\\80 \\D1\\83\\D0\\B4\\D0\\B0\\D0\\BB\\D0\\B5\\D0\\BD\\D0\\BD\\D0\\BE\\D0\\B9 \\D0\\B3\\D0\\B5\\D0\\BD\\D0\\B5\\D1\\80\\D0\\B0\\D1\\86\\D0\\B8\\D0\\B8,CN=reg.ucparma.ru,emailAddress=ca@ucparma.ru",
+      "subject": [
+        {
+          "value": "ca@ucparma.ru",
+          "oid": {
+            "name": "emailAddress",
+            "dotted_string": "1.2.840.113549.1.9.1"
+          }
+        },
+        {
+          "value": "reg.ucparma.ru",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        },
+        {
+          "value": "Сервер удаленной генерации",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "ООО \"УЦ ПАРМА\"",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "Пермь",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "59 Пермский край",
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          }
+        },
+        {
+          "value": "RU",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "error": "Unknown public key type"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "content_commitment": true,
+            "data_encipherment": true,
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "name": "extendedKeyUsage",
+            "dotted_string": "2.5.29.37"
+          },
+          "critical": false,
+          "value": [
+            {
+              "name": "serverAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.1"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "d2e6db89dc2ecdffaa7b602a7690c799a3d6f688"
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "15317cb08d1ade66d7159c4952971724b9017a83"
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://testca.cryptopro.ru/CertEnroll/CRYPTO-PRO%20Test%20Center%202.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://testca.cryptopro.ru/CertEnroll/test-ca-2014_CRYPTO-PRO%20Test%20Center%202.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "OCSP",
+                  "dotted_string": "1.3.6.1.5.5.7.48.1"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://testca.cryptopro.ru/ocsp/ocsp.srf"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "cert_policies_cert": {
+    "raw": "MIIIBTCCBu2gAwIBAgIQM14FYNpL8/9GHXDqsnSHCDANBgkqhkiG9w0BAQUFADCBzDELMAkGA1UEBhMCRlIxETAPBgNVBAgTCENhbHZhZG9zMQ0wCwYDVQQHEwRDYWVuMRUwEwYDVQQKEwxUQlMgSU5URVJORVQxSDBGBgNVBAsTP1Rlcm1zIGFuZCBDb25kaXRpb25zOiBodHRwOi8vd3d3LnRicy1pbnRlcm5ldC5jb20vQ0EvcmVwb3NpdG9yeTEYMBYGA1UECxMPVEJTIElOVEVSTkVUIENBMSAwHgYDVQQDExdUQlMgWDUwOSBDQSBwcm8gaG9zdGluZzAeFw0xNDAzMjgwMDAwMDBaFw0xNDA2MTAyMzU5NTlaMIG4MQswCQYDVQQGEwJGUjEOMAwGA1UEERMFOTM0MDAxGjAYBgNVBAgTEVNlaW5lLVNhaW50LURlbmlzMRAwDgYDVQQHEwdTVCBPVUVOMSIwIAYDVQQJExkxNDUgQk9VTEVWQVJEIFZJQ1RPUiBIVUdPMRcwFQYDVQQKEw5HRkkgUFJPR0lDSUVMUzEWMBQGA1UECxMNQWdlbmNlIFBlZ2FzZTEWMBQGA1UEAxMNcGVnYXNlLmdmaS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMa3g10OiGX+cmDSUCamdCsMPIFZm8Jex5KJsS+OIRBRsukC2vKrENv8lC2nFOMFrCsfjav4slFiV12X8JKqC33IfwgN7Vhb37NHs0zAnwzPCrjEI5v0R9w3hpiZblDwAKbtqe/+G35QzLIHg9OMEm0vr1gkfJnuFolXkMUUZHQ0+PS9LkuDBG039HzDyToTYWTaw474+nhUS4XTimYwjhAa1KcRxWkTY/EPwdtdF6a19frBS76B04klZDmmtz0ZgpRljHMrfOJxJ+UmiuBKExkY6ewyyLvm072wR9cbtHpZMU4y/JEWs9w8c3KOsx7Y5R88h0U7IIsUHdNWBPgNlEkCAwEAAaOCA/MwggPvMB8GA1UdIwQYMBaAFNQ0iEIsm8Kgnl32GVmN9BIBGjtcMB0GA1UdDgQWBBSFrgkUi6UfP1bsneMaTXFrxcJxvjAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADA0BgNVHSUELTArBggrBgEFBQcDAQYIKwYBBQUHAwIGCisGAQQBgjcKAwMGCWCGSAGG+EIEATBWBgNVHSAETzBNMEEGCysGAQQBgOU3AgMBMDIwMAYIKwYBBQUHAgEWJGh0dHBzOi8vd3d3LnRicy1pbnRlcm5ldC5jb20vQ0EvQ1BTMzAIBgZngQwBAgIwewYDVR0fBHQwcjA5oDegNYYzaHR0cDovL2NybC50YnMtaW50ZXJuZXQuY29tL1RCU1g1MDlDQXByb2hvc3RpbmcuY3JsMDWgM6Axhi9odHRwOi8vY3JsLnRicy14NTA5LmNvbS9UQlNYNTA5Q0Fwcm9ob3N0aW5nLmNybDCBtAYIKwYBBQUHAQEEgacwgaQwPwYIKwYBBQUHMAKGM2h0dHA6Ly9jcnQudGJzLWludGVybmV0LmNvbS9UQlNYNTA5Q0Fwcm9ob3N0aW5nLmNydDA7BggrBgEFBQcwAoYvaHR0cDovL2NydC50YnMteDUwOS5jb20vVEJTWDUwOUNBcHJvaG9zdGluZy5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLnRicy14NTA5LmNvbTCCAcsGA1UdEQSCAcIwggG+gg1wZWdhc2UuZ2ZpLmZyghxkZW1hbmRlLXRyYW5zcG9ydC5sYWRyb21lLmZygh1leHRyYW5ldC50cmFuc3BvcnRzLmxvemVyZS5mcoIVaW5zY3JpcHRpb24uanVyYWdvLmZyghtpbnNjcmlwdGlvbmVubGlnbmUubWV1c2UuZnKCIWluc2NyaXB0aW9ucy10cmFuc3BvcnRzLnZlbmRlZS5mcoIkaW5zY3JpcHRpb25zLnNjb2xhaXJlcy5mZWRlcnRlZXAub3JnghhtYWxpZ25lLXNjb2xhaXJlLmNnNjUuZnKCG3BhaWVtZW50dHJhbnNwb3J0LmNhbnRhbC5mcoIOcGVnYXNlMS5nZmkuZnKCDnBlZ2FzZTIuZ2ZpLmZygi50cmFuc3BvcnRzLXNjb2xhaXJlcy5yb2FubmFpcy1hZ2dsb21lcmF0aW9uLmZygiZ0cmFuc3BvcnRzY29sYWlyZS5jYXJjYXNzb25uZS1hZ2dsby5mcoIgd3d3LnRyYW5zcG9ydHMtc2NvbGFpcmVzLmNnMzIuZnKCInd3dy50cmFuc3BvcnRzY29sYWlyZS5sYW1heWVubmUuZnIwDQYJKoZIhvcNAQEFBQADggEBABtTMQ4N+hTPt4gNmlRgAFsQFvTWRsiXMubK++KAKErRDeEgCq5r44n84TSVqDmSn7XjaZvJtndZaZGQiDS7nAybIGR8Vb1Hu9gUG8L9CV1gFQ6mkYIC5OmHhMp65D6LfKZPyFSzrxJi2qReb0sVFf8lqKZry9Coz06mXuxDhQAhbqNj21qUA+mQTOWKfxkPQl/T/LRfT+WqxMMjTc33PlbVF35H0djuXevO03mljOXjYC+MK0RobG/jCfFm+//FEk90Pr/RTw7yP3Qzu//0XYeHzXklKo/6oV6DxuR+PeCkPZ0ory8dB0JAncOllLgyT3gDYj4Dkcac7TYFdpG6lGU=",
+    "parsed": {
+      "version": "3",
+      "serial_number": "68278812775244156764456272245845952264",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "CN=TBS X509 CA pro hosting,OU=TBS INTERNET CA,OU=Terms and Conditions: http://www.tbs-internet.com/CA/repository,O=TBS INTERNET,L=Caen,ST=Calvados,C=FR",
+      "issuer": [
+        {
+          "value": "FR",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        },
+        {
+          "value": "Calvados",
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          }
+        },
+        {
+          "value": "Caen",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "TBS INTERNET",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "Terms and Conditions: http://www.tbs-internet.com/CA/repository",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "TBS INTERNET CA",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "TBS X509 CA pro hosting",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2014-03-28T00:00:00",
+        "not_after": "2014-06-10T23:59:59"
+      },
+      "subject_str": "CN=pegase.gfi.fr,OU=Agence Pegase,O=GFI PROGICIELS,street=145 BOULEVARD VICTOR HUGO,L=ST OUEN,ST=Seine-Saint-Denis,postalCode=93400,C=FR",
+      "subject": [
+        {
+          "value": "FR",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        },
+        {
+          "value": "93400",
+          "oid": {
+            "name": "postalCode",
+            "dotted_string": "2.5.4.17"
+          }
+        },
+        {
+          "value": "Seine-Saint-Denis",
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          }
+        },
+        {
+          "value": "ST OUEN",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "145 BOULEVARD VICTOR HUGO",
+          "oid": {
+            "name": "streetAddress",
+            "dotted_string": "2.5.4.9"
+          }
+        },
+        {
+          "value": "GFI PROGICIELS",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "Agence Pegase",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "pegase.gfi.fr",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxreDXQ6IZf5yYNJQJqZ0Kww8gVmbwl7HkomxL44hEFGy6QLa8qsQ2/yULacU4wWsKx+Nq/iyUWJXXZfwkqoLfch/CA3tWFvfs0ezTMCfDM8KuMQjm/RH3DeGmJluUPAApu2p7/4bflDMsgeD04wSbS+vWCR8me4WiVeQxRRkdDT49L0uS4MEbTf0fMPJOhNhZNrDjvj6eFRLhdOKZjCOEBrUpxHFaRNj8Q/B210XprX1+sFLvoHTiSVkOaa3PRmClGWMcyt84nEn5SaK4EoTGRjp7DLIu+bTvbBH1xu0elkxTjL8kRaz3Dxzco6zHtjlHzyHRTsgixQd01YE+A2USQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "d43488422c9bc2a09e5df619598df412011a3b5c"
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "85ae09148ba51f3f56ec9de31a4d716bc5c271be"
+          }
+        },
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": true,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "name": "extendedKeyUsage",
+            "dotted_string": "2.5.29.37"
+          },
+          "critical": false,
+          "value": [
+            {
+              "name": "serverAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.1"
+            },
+            {
+              "name": "clientAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.2"
+            },
+            {
+              "name": "Unknown OID",
+              "dotted_string": "1.3.6.1.4.1.311.10.3.3"
+            },
+            {
+              "name": "Unknown OID",
+              "dotted_string": "2.16.840.1.113730.4.1"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "certificatePolicies",
+            "dotted_string": "2.5.29.32"
+          },
+          "critical": false,
+          "value": {
+            "hex": "304d3041060b2b0601040180e5370203013032303006082b06010505070201162468747470733a2f2f7777772e7462732d696e7465726e65742e636f6d2f43412f435053333008060667810c010202"
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://crl.tbs-internet.com/TBSX509CAprohosting.crl"
+                  }
+                ]
+              },
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://crl.tbs-x509.com/TBSX509CAprohosting.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://crt.tbs-internet.com/TBSX509CAprohosting.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://crt.tbs-x509.com/TBSX509CAprohosting.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "OCSP",
+                  "dotted_string": "1.3.6.1.5.5.7.48.1"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://ocsp.tbs-x509.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectAltName",
+            "dotted_string": "2.5.29.17"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "DNSName",
+              "dnsname_value": "pegase.gfi.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "demande-transport.ladrome.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "extranet.transports.lozere.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "inscription.jurago.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "inscriptionenligne.meuse.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "inscriptions-transports.vendee.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "inscriptions.scolaires.federteep.org"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "maligne-scolaire.cg65.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "paiementtransport.cantal.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "pegase1.gfi.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "pegase2.gfi.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "transports-scolaires.roannais-agglomeration.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "transportscolaire.carcassonne-agglo.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "www.transports-scolaires.cg32.fr"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "www.transportscolaire.lamayenne.fr"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "bad_version_cert": {
+    "raw": "MIICLDCCAZWgAwIBAwIBADANBgkqhkiG9w0BAQUFADBcMRwwGgYDVQQDFBNMaW5rc3lzX1dSVlM0NDAwTnYyMRIwEAYDVQQLEwlXUlZTNDQwME4xGzAZBgNVBAoTEkNpc2NvIFN5c3RlbXMsIEluYzELMAkGA1UEBhMCVVMwHhcNMTYwODEyMDUzNDUyWhcNMjYwODEwMDUzNDUyWjBcMRwwGgYDVQQDFBNMaW5rc3lzX1dSVlM0NDAwTnYyMRIwEAYDVQQLEwlXUlZTNDQwME4xGzAZBgNVBAoTEkNpc2NvIFN5c3RlbXMsIEluYzELMAkGA1UEBhMCVVMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANR5t2lJ/TvIdJmnw83n7YgQwMGTLhU73zWC/8pvXGyLzIyWCwwTnbn3o3G2gWs3JePgWAAiMXPsI6KpNmwg736QrUIOoY8OCxx3Ye5mv0gxZVYrjfcEySrrJwRcyjy4drGFJ/Ak4KfQS2hHzejttPQZyGZOOB8eq55pOHnTpi2XAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAmhGBVwxaYXnwQiW+0d773UdKhUsbBGTGX5wD3OKk2CzaqOVQkeGn7KrlEE3dOuQRCOZDsdNy6ssmgyCKbJ3QuJlHwo7NF5DkMSGHf0+p6Kbmfnh2sZY/Pn0WXbhQOLrnOlhAnZWUjSzmzuSrkweDjbB/k/IxejoJMkWvYMFBJ2k=",
+    "parsed": {
+      "version": "0x3",
+      "serial_number": "0",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "C=US,O=Cisco Systems\\, Inc,OU=WRVS4400N,CN=Linksys_WRVS4400Nv2",
+      "issuer": [
+        {
+          "value": "Linksys_WRVS4400Nv2",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        },
+        {
+          "value": "WRVS4400N",
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          }
+        },
+        {
+          "value": "Cisco Systems, Inc",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "US",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2016-08-12T05:34:52",
+        "not_after": "2026-08-10T05:34:52"
+      },
+      "subject_str": "C=US,O=Cisco Systems\\, Inc,OU=WRVS4400N,CN=Linksys_WRVS4400Nv2",
+      "subject": [
+        {
+          "value": "Linksys_WRVS4400Nv2",
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          }
+        },
+        {
+          "value": "WRVS4400N",
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          }
+        },
+        {
+          "value": "Cisco Systems, Inc",
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          }
+        },
+        {
+          "value": "US",
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUebdpSf07yHSZp8PN5+2IEMDBky4VO981gv/Kb1xsi8yMlgsME52596NxtoFrNyXj4FgAIjFz7COiqTZsIO9+kK1CDqGPDgscd2HuZr9IMWVWK433BMkq6ycEXMo8uHaxhSfwJOCn0EtoR83o7bT0GchmTjgfHqueaTh506YtlwIDAQAB"
+      },
+      "extensions": []
+    }
+  },
+  "path_length_should_be_None_cert": {
+    "raw": "MIIEAjCCAragAwIBAgIQI4pMx5Rp6bBHqlj7IXFXdjBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAQUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAQUAogMCASAwVjFUMFIGA1UEAwxLYXp1cmVnYXRld2F5LTA5ZDUzOGI2LWUwYjEtNGM5Ny04OWI0LTA2ZjNmYThlYmUzZC0zNzJhNzQ5YzY3YjQuY2xvdWRhcHAubmV0MB4XDTE2MDMxNzE3Mzc1N1oXDTE5MDMxNzE3NDc1N1owVjFUMFIGA1UEAwxLYXp1cmVnYXRld2F5LTA5ZDUzOGI2LWUwYjEtNGM5Ny04OWI0LTA2ZjNmYThlYmUzZC0zNzJhNzQ5YzY3YjQuY2xvdWRhcHAubmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxppdpCKlcfn9J9MTvnUFISDycye7NznVlG0Rj5CthAHCgfRJb2+P3zUhGuM12Q77GiJRng/WkdO0fKAGg9HFDJKqBjJNqWkoNa3MmbjUAPNwC7i/qVQg4a6OPk/gTJXtER32jHh8IsKiUjSXH6lE7Z54Qohkzsu8U+0xfDMyEOrXM6l4ieEB8syS3Jp+gA6LMjZC8lLH0GMuFDFrK/A6RCAJG1pRuJOS8KyIquR66dHU2A72hrVnxMM/+pQRMI/l1XRN4c4ByIjni8l2RPvVv+Sbwoc74gQ3KHNFm9JgSetspn0UBlYz3vRNYBiT5KF5qyAG1Utd3tdlOphMU3ogPwIDAQABo2QwYjAgBgNVHSUBAf8EFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwIBADAdBgNVHQ4EFgQU1LxjAn1P/yA0eurAGRIJQRNBfd0wDgYDVR0PAQH/BAQDAgUgMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUDBAIBBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIBBQCiAwIBIAOCAQEAt7DReLRmm74Xe/1c/3dTcJTg+HTRrG4SI57phoR7lrhjEgS3CljYCa3a6Na0I0TcIuC4n2Lp6G6M5sfuqXMNFE6KUSccVjN6IyiynUS35CxeXkwR6tMIsuLJaphKF2a0GOYgb4SJyc/t6nYB7srt5cIbVSWQXaoKzGNu9SbZ/czAIzZMFLrzG4Li6i5jaUMGlK1AJkPIj+VGSmCLYTk06E6TOY49CrBjtUaNPBG1loJio7yg+Opk9+f6sdz+S5CSQbtBS/BwJX/TYG8S5vdMU50+muVxRp5LZbYwTRD9dbUBExRblW2+ZSK3jSzx80Ah4ZrOlRcXBJe5seP9xLX9Hg==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "47241074094415901857725966302770714486",
+      "signature_algorithm": "RSASSA-PSS",
+      "issuer_str": "CN=azuregateway-09d538b6-e0b1-4c97-89b4-06f3fa8ebe3d-372a749c67b4.cloudapp.net",
+      "issuer": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "azuregateway-09d538b6-e0b1-4c97-89b4-06f3fa8ebe3d-372a749c67b4.cloudapp.net"
+        }
+      ],
+      "validity": {
+        "not_before": "2016-03-17T17:37:57",
+        "not_after": "2019-03-17T17:47:57"
+      },
+      "subject_str": "CN=azuregateway-09d538b6-e0b1-4c97-89b4-06f3fa8ebe3d-372a749c67b4.cloudapp.net",
+      "subject": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "azuregateway-09d538b6-e0b1-4c97-89b4-06f3fa8ebe3d-372a749c67b4.cloudapp.net"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxppdpCKlcfn9J9MTvnUFISDycye7NznVlG0Rj5CthAHCgfRJb2+P3zUhGuM12Q77GiJRng/WkdO0fKAGg9HFDJKqBjJNqWkoNa3MmbjUAPNwC7i/qVQg4a6OPk/gTJXtER32jHh8IsKiUjSXH6lE7Z54Qohkzsu8U+0xfDMyEOrXM6l4ieEB8syS3Jp+gA6LMjZC8lLH0GMuFDFrK/A6RCAJG1pRuJOS8KyIquR66dHU2A72hrVnxMM/+pQRMI/l1XRN4c4ByIjni8l2RPvVv+Sbwoc74gQ3KHNFm9JgSetspn0UBlYz3vRNYBiT5KF5qyAG1Utd3tdlOphMU3ogPwIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": true,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": true,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "d4bc63027d4fff20347aeac01912094113417ddd"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": true,
+          "value": {
+            "key_encipherment": true
+          }
+        }
+      ]
+    }
+  },
+  "inhibit_any_policy_cert": {
+    "raw": "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",
+    "parsed": {
+      "version": "3",
+      "serial_number": "40037097663064571265820365304169171289",
+      "signature_algorithm": "sha1WithRSAEncryption",
+      "issuer_str": "CN=CertiPath Bridge CA,OU=Certification Authorities,O=CertiPath LLC,C=US",
+      "issuer": [
+        {
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          },
+          "value": "US"
+        },
+        {
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          },
+          "value": "CertiPath LLC"
+        },
+        {
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          },
+          "value": "Certification Authorities"
+        },
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "CertiPath Bridge CA"
+        }
+      ],
+      "validity": {
+        "not_before": "2016-06-24T00:00:00",
+        "not_after": "2017-06-30T23:59:59"
+      },
+      "subject_str": "OU=RaytheonRoot,O=CAs,DC=raytheon,DC=com",
+      "subject": [
+        {
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          },
+          "value": "com"
+        },
+        {
+          "oid": {
+            "name": "domainComponent",
+            "dotted_string": "0.9.2342.19200300.100.1.25"
+          },
+          "value": "raytheon"
+        },
+        {
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          },
+          "value": "CAs"
+        },
+        {
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          },
+          "value": "RaytheonRoot"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlpZNgQWsaUPv1jcip5cKEBV8tALL+P/HZNYwlTPRypCXrcinkxMBmXQ4dxGsbt/cSKaG3M21mjPGdQFou3ww2YbK1zS2rCb2uYHTtmM18yNIwWxRncE3b8/+UK6pIxeXQcRc26+2e352qBEbEXcrLn0vRvY25IRLQxaiEByy9z6FiMU8WUQrxWbDC0xkJkAshoJ46yZ/HrhWkXu4sbt0A9atMYgcSV5uOfv9ZTizGZsBmcMYYgnUxYxPJt8eQbm10KqdmAfdEhwUzJLuZolbKr9GNosTkxgl6JnYEcF79BVP02XGCIB7nG4dHgGkPlzH2n3R0+D6cr/JtxMGEl1i+QIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "283086d556154210425cf07b1c11b28389d47920"
+          }
+        },
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": true,
+          "value": {
+            "ca": true,
+            "path_length": 1
+          }
+        },
+        {
+          "oid": {
+            "name": "certificatePolicies",
+            "dotted_string": "2.5.29.32"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.17"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.18"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.19"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.20"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.21"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.25"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.24019.1.1.1.26"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://certipath-crl.symauth.com/CertiPathLLCCertiPathBridgeCA.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "crl_sign": true,
+            "key_cert_sign": true
+          }
+        },
+        {
+          "oid": {
+            "name": "nameConstraints",
+            "dotted_string": "2.5.29.30"
+          },
+          "critical": true,
+          "value": {
+            "permitted_subtrees": [
+              {
+                "type": "RFC822Name",
+                "rfc822name_value": ".raytheon.com"
+              },
+              {
+                "type": "RFC822Name",
+                "rfc822name_value": "raytheon.com"
+              },
+              {
+                "type": "DNSName",
+                "dnsname_value": "raytheon.com"
+              },
+              {
+                "type": "DirectoryName",
+                "directoryname_value": [
+                  {
+                    "oid": {
+                      "name": "countryName",
+                      "dotted_string": "2.5.4.6"
+                    },
+                    "value": "us"
+                  },
+                  {
+                    "oid": {
+                      "name": "organizationName",
+                      "dotted_string": "2.5.4.10"
+                    },
+                    "value": "raytheon.com"
+                  }
+                ]
+              },
+              {
+                "type": "DirectoryName",
+                "directoryname_value": [
+                  {
+                    "oid": {
+                      "name": "domainComponent",
+                      "dotted_string": "0.9.2342.19200300.100.1.25"
+                    },
+                    "value": "com"
+                  },
+                  {
+                    "oid": {
+                      "name": "domainComponent",
+                      "dotted_string": "0.9.2342.19200300.100.1.25"
+                    },
+                    "value": "raytheon"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "inhibitAnyPolicy",
+            "dotted_string": "2.5.29.54"
+          },
+          "critical": false,
+          "value": {
+            "skip_certs": 0
+          }
+        },
+        {
+          "oid": {
+            "name": "policyConstraints",
+            "dotted_string": "2.5.29.36"
+          },
+          "critical": false,
+          "value": {}
+        },
+        {
+          "oid": {
+            "name": "policyMappings",
+            "dotted_string": "2.5.29.33"
+          },
+          "critical": false,
+          "value": {
+            "hex": "30820150301a060c2b0601040181bb5301010111060a2b060104018c210a0103301a060c2b0601040181bb5301010112060a2b060104018c210a0102301a060c2b0601040181bb5301010113060a2b060104018c210a0101301a060c2b0601040181bb5301010114060a2b060104018c210a0105301a060c2b0601040181bb5301010115060a2b060104018c210a0104301a060c2b0601040181bb5301010119060a2b060104018c210a0109301a060c2b0601040181bb530101011a060a2b060104018c210a0108301a060c2b0601040181bb5301010111060a2b060104018c210a0102301a060c2b0601040181bb5301010111060a2b060104018c210a0101301a060c2b0601040181bb5301010112060a2b060104018c210a0101301a060c2b0601040181bb5301010114060a2b060104018c210a0104301a060c2b0601040181bb5301010119060a2b060104018c210a0108"
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://certipath-aia.symauth.com/CertiPathBridgeRootCA.p7c"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "351f41eabf9176c167a006191b80f406d13993dc"
+          }
+        }
+      ]
+    }
+  },
+  "invalid_key_usage_cert": {
+    "raw": "MIIEpjCCA46gAwIBAgIIUzfbK12A0fYwDQYJKoZIhvcNAQELBQAwgaoxCzAJBgNVBAYTAkdCMQ8wDQYDVQQHEwZMb25kb24xKTAnBgNVBAoTIEJyaXRpc2ggQnJvYWRjYXN0aW5nIENvcnBvcmF0aW9uMQswCQYDVQQLEwJGTTEvMC0GA1UEAxMmQ2xvdWQgRGV2ZWxvcG1lbnQgU2VydmVycyBhbmQgU2VydmljZXMxITAfBgkqhkiG9w0BCQEWEmNhLWFkbWluQGJiYy5jby51azAeFw0xNjA1MjMwNzUwNDVaFw0xNjA2MjIwNzUwNDVaMIGrMQswCQYDVQQGEwJHQjEPMA0GA1UEBwwGTG9uZG9uMSkwJwYDVQQKDCBCcml0aXNoIEJyb2FkY2FzdGluZyBDb3Jwb3JhdGlvbjEqMCgGA1UEAwwhY3VzdG9tLXJlcG9zLXRlc3QtYXBwQGludCBzZXJ2aWNlMTQwMgYJKoZIhvcNAQkBFiVjdXN0b20tcmVwb3MtdGVzdC1hcHBAY2xvdWQuYmJjLmNvLnVrMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAne/aY8q9+SacJYgPLtdV3bGzh5x/aoIE8NNC0rPJPHUmU/ONTUaOzUesVY7WyiduBZkvYkAN358GU07x/US1bhvu44+oC7sWP/btDUPcSkDhECDcmG4WfF469fglkMixPtT+ri3AQALdp3W0GVXzXNv66q9Nvc/33/CCE1QHD5OptZZ5b1uth5XYLrfY/amdyJOVnQ8PnbbtCltVSQMZuyZ0k0TV9jkgXZSSo3VCTfRis/GJQ3befsyuRbpNyKNqaYJTzvq9Tg70aRY6bY6ECxXdnfvXzYn7oSotEw77HKkDRCom6fSMGm1zeknrrfR7HCpBvaU3PHLFwSW/TffJnQIDAQABo4HMMIHJMB0GA1UdDgQWBBTRhkAPY2IDYyNtRjppxhd1M1BWZjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFP/clEWiElVGlFGqp1gUjfvDtE8iMA8GA1UdDwEB/wQFAwMH8YAwMQYDVR0lBCowKAYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBAYIKwYBBQUHAwgwOAYDVR0RBDEwL4ItY3VzdG9tLXJlcG9zLXRlc3QtYXBwLmludC5lbmcuY2xvdWQuYmJjLmNvLnVrMA0GCSqGSIb3DQEBCwUAA4IBAQClyt4FqSY5wE8X5PA3xPtAxLUHFRzjNcOsMjDr3vnrI8jDS+Agbd0bDuFZQxMbh6QEnpRyfcf00X3oh9S3j6HtE8DH8so3Ud/nyiTrc6eS9wsP7bIXBRXqywXm+LT3dezIIV7Lv/rr0rW/tkNKnuBMxp34Y4i2juqkddhqgKkQoXhhwSZvqxgsdevGCkiAkPAe5vJ8kV/Bp08QdXXiJJEWaBee3mmbP9efzKOCTxg+UARdhz2fPizZO86iO6T7M2np7pLqcAekVHjJAswL0AgTRbAWA2gyzbJuFZxy1uov2ky1aVKBTsQfxB0GiPiQNWMBXRO65pfAaLgyS4oBI0OZ",
+    "parsed": {
+      "version": "3",
+      "serial_number": "5996502408165904886",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "emailAddress=ca-admin@bbc.co.uk,CN=Cloud Development Servers and Services,OU=FM,O=British Broadcasting Corporation,L=London,C=GB",
+      "issuer": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "GB"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          },
+          "value": "London"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "British Broadcasting Corporation"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.11",
+            "name": "organizationalUnitName"
+          },
+          "value": "FM"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "Cloud Development Servers and Services"
+        },
+        {
+          "oid": {
+            "dotted_string": "1.2.840.113549.1.9.1",
+            "name": "emailAddress"
+          },
+          "value": "ca-admin@bbc.co.uk"
+        }
+      ],
+      "validity": {
+        "not_before": "2016-05-23T07:50:45",
+        "not_after": "2016-06-22T07:50:45"
+      },
+      "subject_str": "emailAddress=custom-repos-test-app@cloud.bbc.co.uk,CN=custom-repos-test-app@int service,O=British Broadcasting Corporation,L=London,C=GB",
+      "subject": [
+        {
+          "oid": {
+            "dotted_string": "2.5.4.6",
+            "name": "countryName"
+          },
+          "value": "GB"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.7",
+            "name": "localityName"
+          },
+          "value": "London"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.10",
+            "name": "organizationName"
+          },
+          "value": "British Broadcasting Corporation"
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.4.3",
+            "name": "commonName"
+          },
+          "value": "custom-repos-test-app@int service"
+        },
+        {
+          "oid": {
+            "dotted_string": "1.2.840.113549.1.9.1",
+            "name": "emailAddress"
+          },
+          "value": "custom-repos-test-app@cloud.bbc.co.uk"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAne/aY8q9+SacJYgPLtdV3bGzh5x/aoIE8NNC0rPJPHUmU/ONTUaOzUesVY7WyiduBZkvYkAN358GU07x/US1bhvu44+oC7sWP/btDUPcSkDhECDcmG4WfF469fglkMixPtT+ri3AQALdp3W0GVXzXNv66q9Nvc/33/CCE1QHD5OptZZ5b1uth5XYLrfY/amdyJOVnQ8PnbbtCltVSQMZuyZ0k0TV9jkgXZSSo3VCTfRis/GJQ3befsyuRbpNyKNqaYJTzvq9Tg70aRY6bY6ECxXdnfvXzYn7oSotEw77HKkDRCom6fSMGm1zeknrrfR7HCpBvaU3PHLFwSW/TffJnQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "d186400f63620363236d463a69c6177533505666"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": false,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "ffdc9445a21255469451aaa758148dfbc3b44f22"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.15",
+            "name": "keyUsage"
+          },
+          "critical": true,
+          "value": {
+            "content_commitment": true,
+            "data_encipherment": true,
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.37",
+            "name": "extendedKeyUsage"
+          },
+          "critical": false,
+          "value": [
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.1",
+              "name": "serverAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.2",
+              "name": "clientAuth"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.4",
+              "name": "emailProtection"
+            },
+            {
+              "dotted_string": "1.3.6.1.5.5.7.3.8",
+              "name": "timeStamping"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.17",
+            "name": "subjectAltName"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "DNSName",
+              "dnsname_value": "custom-repos-test-app.int.eng.cloud.bbc.co.uk"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nonames_cert": {
+    "raw": "MIIC0zCCAbugAwIBAgIJAN61r8W8iQtHMA0GCSqGSIb3DQEBCwUAMAAwHhcNMTYxMTE5MTA1MzUzWhcNMTcxMTE5MTA1MzUzWjAAMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0No2XZr49TRkq/QzAlqbxSIIY8OMzcAtXykjXaDI/WEwkJHed81mahHXgNVBEDJqoT+gIcAX05CaUrq/q1RPn3qFxl/a3RE3XQvcWqktl04XfvQS4j2k1UpQZqHhsIsMhD/KAAEZz6Cz85ffRhr0lyITZVGo/DaJD1D1cYtkubNC2Blu+TVJYVlQsagYUIW0ux/eDyMUPT0Y5Oi8KguXEAWOpHnxoDAhXvUB4KJG0nzNytMzwfol2DsPoNlMYHacHRFTy+CGi1q0E7U7zCxAqcPIUFqsK3l59iRcbGm7NSVo9h4lKS7pYeKi+srOjnbY9eVBii6W5HbaE76gB779bQIDAQABo1AwTjAdBgNVHQ4EFgQUV4FteqsGMXVFVddRqS6+dfgUY3gwHwYDVR0jBBgwFoAUV4FteqsGMXVFVddRqS6+dfgUY3gwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAnpGRXOsWoTRB7/gVXbT7ArbZy/T6bmVjqR/XZRUt2RPetX8phun6qWKZPT5adoMgz8ipzM8ksX20UdsEirB3MQ1rzl/kiEcButPs1i6butGRSjAw62pADw8TfKZmRsi3pElwpgMoflaPyq2AiLfvHNI1lvNzyq5sngjdWwUy8Qt05ozFhWH3k9WTju3k10AeZnGoherdWKrVgjlLXhUv0ME9Hluyfg9dUw1GLt4N7Xx9bxP6EOlmf73LRovap2bWToc4QNDaA0uwp7mEDx+izzYo5ZKiq4P5U9PqIiQcfj/u62V76Cq/RbizFOZ/YKimHPb3jlP+rWUaFgIh+Nlg0w==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "16047926111011146567",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "",
+      "issuer": [],
+      "validity": {
+        "not_before": "2016-11-19T10:53:53",
+        "not_after": "2017-11-19T10:53:53"
+      },
+      "subject_str": "",
+      "subject": [],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0No2XZr49TRkq/QzAlqbxSIIY8OMzcAtXykjXaDI/WEwkJHed81mahHXgNVBEDJqoT+gIcAX05CaUrq/q1RPn3qFxl/a3RE3XQvcWqktl04XfvQS4j2k1UpQZqHhsIsMhD/KAAEZz6Cz85ffRhr0lyITZVGo/DaJD1D1cYtkubNC2Blu+TVJYVlQsagYUIW0ux/eDyMUPT0Y5Oi8KguXEAWOpHnxoDAhXvUB4KJG0nzNytMzwfol2DsPoNlMYHacHRFTy+CGi1q0E7U7zCxAqcPIUFqsK3l59iRcbGm7NSVo9h4lKS7pYeKi+srOjnbY9eVBii6W5HbaE76gB779bQIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "dotted_string": "2.5.29.14",
+            "name": "subjectKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "digest": "57816d7aab0631754555d751a92ebe75f8146378"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.35",
+            "name": "authorityKeyIdentifier"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "57816d7aab0631754555d751a92ebe75f8146378"
+          }
+        },
+        {
+          "oid": {
+            "dotted_string": "2.5.29.19",
+            "name": "basicConstraints"
+          },
+          "critical": false,
+          "value": {
+            "ca": true
+          }
+        }
+      ]
+    }
+  },
+  "023b4c6374dca20a654b009c21195bbad17e4791": {
+    "raw": "MIICKzCCAZSgAwIBAgIBATANBgkqhkiG9w0BAQQFADAxMS8wLQYDVQQDEyZJT1MtU2VsZi1TaWduZWQtQ2VydGlmaWNhdGUtMTA1NDg3NjI5OTAeFw0xNTExMTYxMTA1MTVaFw0yMDAxMDEwMDAwMDBaMDExLzAtBgNVBAMTJklPUy1TZWxmLVNpZ25lZC1DZXJ0aWZpY2F0ZS0xMDU0ODc2Mjk5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZjwbIIMfRXhrcEj4R0OdbuQEDDXwJfKP7UPFOyzRDEMqL8AQQ5taBrWZqh2GJlzYDxkPzvAJI9P3DyYdlcSt9Mf19RPW89d6D1lGnjPDjbjewDh7wFSif+zOfyT6tWdvc3BvDDQQFXiLJXC4B2FAjdRwF5SjyMAiCDYdZHeHNwIDAQABo1MwUTAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFF8gXUxXFpoo4i/1LzS3spia/9O1MB0GA1UdDgQWBBRfIF1MVxaaKOIv9S80t7KYmv/TtTANBgkqhkiG9w0BAQQFAAOBgQCTEK8uCQIGdAkafC+mv2J1/Q77xjzuvij/t5E8D/k9iy+QemrD0lBLjxVFvQsBQFbcnaL/XG9C+tDWv/yM30R+CgUKyjmnKqnuli7fYiEIcOB4yUOVD8WM6EmPRpeX/EHT3nazKz3WrVcoIpylVNpH2L0qmekrEs4VXLIua5Fdmg==",
+    "parsed": {
+      "version": "3",
+      "serial_number": "1",
+      "signature_algorithm": "md5WithRSAEncryption",
+      "issuer_str": "CN=IOS-Self-Signed-Certificate-1054876299",
+      "issuer": [
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "IOS-Self-Signed-Certificate-1054876299"
+        }
+      ],
+      "validity": {
+        "not_before": "2015-11-16T11:05:15",
+        "not_after": "2020-01-01T00:00:00"
+      },
+      "subject_str": "CN=IOS-Self-Signed-Certificate-1054876299",
+      "subject": [
+        {
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          },
+          "value": "IOS-Self-Signed-Certificate-1054876299"
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 1024,
+        "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoZjwbIIMfRXhrcEj4R0OdbuQEDDXwJfKP7UPFOyzRDEMqL8AQQ5taBrWZqh2GJlzYDxkPzvAJI9P3DyYdlcSt9Mf19RPW89d6D1lGnjPDjbjewDh7wFSif+zOfyT6tWdvc3BvDDQQFXiLJXC4B2FAjdRwF5SjyMAiCDYdZHeHNwIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": true,
+          "value": {
+            "ca": true
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "5f205d4c57169a28e22ff52f34b7b2989affd3b5"
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "5f205d4c57169a28e22ff52f34b7b2989affd3b5"
+          }
+        }
+      ]
+    }
+  },
+  "domaintools_cert_has_ct_extensions": {
+    "raw": "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",
+    "parsed": {
+      "version": "3",
+      "serial_number": "320704500717924196725769411435238038535",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "issuer_str": "CN=COMODO RSA Extended Validation Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+      "issuer": [
+        {
+          "value": "GB",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        },
+        {
+          "value": "Greater Manchester",
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          }
+        },
+        {
+          "value": "Salford",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "COMODO CA Limited",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "COMODO RSA Extended Validation Secure Server CA",
+          "oid": {
+            "name": "commonName",
+            "dotted_string": "2.5.4.3"
+          }
+        }
+      ],
+      "validity": {
+        "not_before": "2017-12-13T00:00:00",
+        "not_after": "2018-12-22T23:59:59"
+      },
+      "subject_str": "OU=COMODO EV Multi-Domain SSL,OU=TechOps,O=DomainTools,street=2101 4th Ave,street=Suite 1150,L=Seattle,ST=Washington,postalCode=98121,C=US,businessCategory=Private Organization,jurisdictionST=Washington,jurisdictionC=US,serialNumber=4710432",
+      "subject": [
+        {
+          "value": "4710432",
+          "oid": {
+            "name": "serialNumber",
+            "dotted_string": "2.5.4.5"
+          }
+        },
+        {
+          "value": "US",
+          "oid": {
+            "name": "jurisdictionCountryName",
+            "dotted_string": "1.3.6.1.4.1.311.60.2.1.3"
+          }
+        },
+        {
+          "value": "Washington",
+          "oid": {
+            "name": "jurisdictionStateOrProvinceName",
+            "dotted_string": "1.3.6.1.4.1.311.60.2.1.2"
+          }
+        },
+        {
+          "value": "Private Organization",
+          "oid": {
+            "name": "businessCategory",
+            "dotted_string": "2.5.4.15"
+          }
+        },
+        {
+          "value": "US",
+          "oid": {
+            "name": "countryName",
+            "dotted_string": "2.5.4.6"
+          }
+        },
+        {
+          "value": "98121",
+          "oid": {
+            "name": "postalCode",
+            "dotted_string": "2.5.4.17"
+          }
+        },
+        {
+          "value": "Washington",
+          "oid": {
+            "name": "stateOrProvinceName",
+            "dotted_string": "2.5.4.8"
+          }
+        },
+        {
+          "value": "Seattle",
+          "oid": {
+            "name": "localityName",
+            "dotted_string": "2.5.4.7"
+          }
+        },
+        {
+          "value": "Suite 1150",
+          "oid": {
+            "name": "streetAddress",
+            "dotted_string": "2.5.4.9"
+          }
+        },
+        {
+          "value": "2101 4th Ave",
+          "oid": {
+            "name": "streetAddress",
+            "dotted_string": "2.5.4.9"
+          }
+        },
+        {
+          "value": "DomainTools",
+          "oid": {
+            "name": "organizationName",
+            "dotted_string": "2.5.4.10"
+          }
+        },
+        {
+          "value": "TechOps",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        },
+        {
+          "value": "COMODO EV Multi-Domain SSL",
+          "oid": {
+            "name": "organizationalUnitName",
+            "dotted_string": "2.5.4.11"
+          }
+        }
+      ],
+      "subject_public_key_info": {
+        "algorithm": "rsaEncryption",
+        "key_size": 2048,
+        "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArGQBfQ1WQzmBEctzhgbqvwVJgpnjyCe0DYpHKBB2b9x1ids7sKILfteRAVnCpF8RND2VkKwe72ttMBo45woqPe68TaRyrAKntgE45W/orfgn9TJ0TbaMN2Yq5vtG53N7tQMQ3qV0rudw2vi5aO1H18ScdU65NnOdaRKAguCfxVcyatYn4ZAIqbKPvs/y2+4ENCruPTU49gmTqW753S7GiRHs+NbJux0d7zaAVrRKT/XNhxLqGMPLpBXIOEwkSIGc3nO0TOw0D5ihfFfNCZJjwXX61FdiSaABSeL+le0oNwm70qA3EQ+DsTfG1JLkQGYZ1RQQSo3N5jtDdh3HU9aSswIDAQAB"
+      },
+      "extensions": [
+        {
+          "oid": {
+            "name": "authorityKeyIdentifier",
+            "dotted_string": "2.5.29.35"
+          },
+          "critical": false,
+          "value": {
+            "key_identifier": "39daffca28148aa8741308b9e40ea9d2fa7e9d69"
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectKeyIdentifier",
+            "dotted_string": "2.5.29.14"
+          },
+          "critical": false,
+          "value": {
+            "digest": "fa58749d8d5b0c95e198f2796e626b2f293604f5"
+          }
+        },
+        {
+          "oid": {
+            "name": "keyUsage",
+            "dotted_string": "2.5.29.15"
+          },
+          "critical": true,
+          "value": {
+            "digital_signature": true,
+            "key_encipherment": true
+          }
+        },
+        {
+          "oid": {
+            "name": "basicConstraints",
+            "dotted_string": "2.5.29.19"
+          },
+          "critical": true,
+          "value": {
+            "ca": false
+          }
+        },
+        {
+          "oid": {
+            "name": "extendedKeyUsage",
+            "dotted_string": "2.5.29.37"
+          },
+          "critical": false,
+          "value": [
+            {
+              "name": "serverAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.1"
+            },
+            {
+              "name": "clientAuth",
+              "dotted_string": "1.3.6.1.5.5.7.3.2"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "certificatePolicies",
+            "dotted_string": "2.5.29.32"
+          },
+          "critical": false,
+          "value": {
+            "policies": [
+              {
+                "policy_qualifiers": [
+                  "https://secure.comodo.com/CPS"
+                ],
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "1.3.6.1.4.1.6449.1.2.1.5.1"
+                }
+              },
+              {
+                "policy_identifier": {
+                  "name": "Unknown OID",
+                  "dotted_string": "2.23.140.1.1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "cRLDistributionPoints",
+            "dotted_string": "2.5.29.31"
+          },
+          "critical": false,
+          "value": {
+            "distribution_points": [
+              {
+                "name": [
+                  {
+                    "type": "UniformResourceIdentifier",
+                    "uniformresourceidentifier_value": "http://crl.comodoca.com/COMODORSAExtendedValidationSecureServerCA.crl"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "authorityInfoAccess",
+            "dotted_string": "1.3.6.1.5.5.7.1.1"
+          },
+          "critical": false,
+          "value": {
+            "descriptions": [
+              {
+                "access_method": {
+                  "name": "caIssuers",
+                  "dotted_string": "1.3.6.1.5.5.7.48.2"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://crt.comodoca.com/COMODORSAExtendedValidationSecureServerCA.crt"
+                }
+              },
+              {
+                "access_method": {
+                  "name": "OCSP",
+                  "dotted_string": "1.3.6.1.5.5.7.48.1"
+                },
+                "access_location": {
+                  "type": "UniformResourceIdentifier",
+                  "uniformresourceidentifier_value": "http://ocsp.comodoca.com"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "oid": {
+            "name": "subjectAltName",
+            "dotted_string": "2.5.29.17"
+          },
+          "critical": false,
+          "value": [
+            {
+              "type": "DNSName",
+              "dnsname_value": "account.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "admin.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "labs.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "research.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "secure.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "whois.domaintools.com"
+            },
+            {
+              "type": "DNSName",
+              "dnsname_value": "www.domaintools.com"
+            }
+          ]
+        },
+        {
+          "oid": {
+            "name": "signedCertificateTimestampList",
+            "dotted_string": "1.3.6.1.4.1.11129.2.4.2"
+          },
+          "critical": false,
+          "value": [
+            {
+              "version": "Version.v1",
+              "log_id": "a4b90990b418581487bb13a2cc67700a3c359804f91bdfb8e377cd0ec80ddc10",
+              "timestamp": "2017-12-13 16:55:57.795000",
+              "entry_type": "LogEntryType.PRE_CERTIFICATE"
+            },
+            {
+              "version": "Version.v1",
+              "log_id": "5614069a2fd7c2ecd3f5e1bd44b23ec74676b9bc99115cc0ef949855d689d0dd",
+              "timestamp": "2017-12-13 16:55:57.225000",
+              "entry_type": "LogEntryType.PRE_CERTIFICATE"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

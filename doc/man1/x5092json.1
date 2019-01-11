@@ -1,0 +1,54 @@
+.\" Manpage for x5092json
+.\" Errors or types may be addressed via pull request to https://github.com/jcrowgey/x5092json/
+
+.TH MAN 1 "25 Dec 2018" "1.0" "x5092json man page"
+.SH NAME
+x5092json \- Parse x509 TLS certificates, serialize as JSON
+.SH SYNOPSIS
+usage: x5092json [-h] [--inform {DER,PEM}]
+                 [--in IN] [--out OUT]
+
+optional arguments:
+  -h, --help          show this help message and exit
+  --inform {DER,PEM}
+  --in IN
+  --out OUT
+
+.SH DESCRIPTION
+
+This tool reads x509 TLS certificates and outputs their details as
+machine-readable JSON documents.  Has been used successfully on over 400
+million certificates found in the wild.  Provides a
+command\-line tool as well as an importable module.
+
+.SH MOTIVATION
+PyCA\-Cryptography (https://github.com/pyca/cryptography) provides a wonderful
+set of cryptographic operations for Python programmers, but the focus of that
+library is the safe and correct generation and usage of cryptographic artifacts
+and procedures.  However, many certificates in use on the Internet present a
+lack of compliance with standards and best practices.  The x5092json package
+takes the safety belts off to provide a parser which is robust to the vagaries
+which one finds when processing real data deployed in the wilds of the
+Internet.
+
+.SH EXAMPLES
+
+    cat mycert.pem | x5092json
+        Reads a PEM formatted x509 Certificate from STDIN by default,
+        the JSON document is printed on STDOUT.
+
+    x5092json --in mycert.pem
+    But the input filename may be specified with --in
+
+    cat mycert.crt | x5092json --inform DER
+        DER encoding is selectable with --inform
+
+    cat mycert.crt | x5092json --inform DER --out mycert.json
+        You can specify the output file with --out.
+
+.SH AUTHOR
+    Written by Joshua Crowgey
+
+.SH REPORTING BUGS
+    Issues may reported at https://github.com/jcrowgey/x5092json/. Pull
+    Requests accepted!
