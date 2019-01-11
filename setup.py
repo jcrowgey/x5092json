@@ -10,6 +10,8 @@ setup(name='x5092json',
       license='BSD',
       packages=['x5092json'],
       data_files=[('man/man1', ['doc/man1/x5092json.1'])],
+      long_description=open('doc/README.md').read(),
+      long_description_content_type='text/markdown',
       install_requires=[
           'asn1',
           'cryptography>=2.2.3',

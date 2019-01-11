@@ -34,7 +34,7 @@ $ pip install x5092json
 
 From this repo:
 
-```
+```shell
 $ git clone https://github.com/jcrowgey/x5092json
 ```
 
@@ -42,7 +42,28 @@ $ git clone https://github.com/jcrowgey/x5092json
 Usage
 -----
 
-See the manual for usage and options.
+Can be used as a command line tool:
+
+```shell
+$ cat mycert.pem | x5092json
+```
+
+For example, the above invocation teads a PEM formatted x509
+Certificate from STDIN by default, the JSON document is printed on
+STDOUT.
+
+Can also be imported as a module within a python program.
+
+```python
+import x5092json
+
+# load a pem file from the filesystem
+f = open('mycert.pem')
+cert = x5092json.load_certificate(f)
+x5092json.parse(cert)
+```
+
+See the manual for more usage examples and options.
 
 
 Author

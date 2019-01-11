@@ -33,17 +33,17 @@ Internet.
 
 .SH EXAMPLES
 
-    cat mycert.pem | x5092json
+    $ cat mycert.pem | x5092json
         Reads a PEM formatted x509 Certificate from STDIN by default,
         the JSON document is printed on STDOUT.
 
-    x5092json --in mycert.pem
+    $ x5092json --in mycert.pem
     But the input filename may be specified with --in
 
-    cat mycert.crt | x5092json --inform DER
+    $ cat mycert.crt | x5092json --inform DER
         DER encoding is selectable with --inform
 
-    cat mycert.crt | x5092json --inform DER --out mycert.json
+    $ cat mycert.crt | x5092json --inform DER --out mycert.json
         You can specify the output file with --out.
 
 .SH AUTHOR

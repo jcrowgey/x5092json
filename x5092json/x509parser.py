@@ -503,7 +503,7 @@ def parse(certificate):
     return cert_data
 
 
-def load_certificate(infile, loadfunction):
+def load_certificate(infile, loadfunction=READERS['PEM']):
     return loadfunction(infile.read())
 
 
