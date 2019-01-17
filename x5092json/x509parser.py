@@ -2,6 +2,7 @@ from __future__ import absolute_import
 import argparse
 from base64 import b64encode
 from collections import OrderedDict
+import select
 import sys
 
 from OpenSSL import crypto
@@ -504,22 +505,32 @@ def parse(certificate):
 
 
 def load_certificate(infile, loadfunction=READERS['PEM']):
-    return loadfunction(infile.read())
+    if select.select([infile, ], [], [], 0.0)[0]:
+        return loadfunction(infile.read())
+    else:
+        raise IOError
 
 
-def parse_args():
+def get_parser():
     parser = argparse.ArgumentParser('Parse an x509 certificate, output JSON')
     parser.add_argument('--inform', choices=['DER', 'PEM'], default='PEM')
     parser.add_argument('--in', type=argparse.FileType(mode='rb'),
                         default=sys.stdin.buffer.raw)
     parser.add_argument('--out', type=argparse.FileType(mode='w'),
                         default=sys.stdout)
-    return parser.parse_args()
+    return parser
 
 
 def main():
-    args = parse_args()
-    certificate = load_certificate(getattr(args, 'in'), READERS[args.inform])
+    parser = get_parser()
+    args = parser.parse_args()
+    try:
+        certificate = load_certificate(getattr(args, 'in'),
+                                       READERS[args.inform])
+    except IOError:
+        parser.print_usage()
+        sys.exit(1)
+
     args.out.write(json.dumps(parse(certificate), ensure_ascii=False))
 
 

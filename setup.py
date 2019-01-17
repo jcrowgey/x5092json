@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(name='x5092json',
-      version='1.0.1',
+      version='1.0.2',
       description='x5092json Utility',
       author='Joshua Crowgey',
       author_email='jcrowgey@uw.edu',
