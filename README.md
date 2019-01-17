@@ -29,10 +29,10 @@ against earlier Py3Ks.
 From PyPI:
 
 ```shell
-$ pip install x5092json
+$ pip3 install x5092json
 ```
 
-From this repo:
+From source :
 
 ```shell
 $ git clone https://github.com/jcrowgey/x5092json
