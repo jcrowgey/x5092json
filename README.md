@@ -55,10 +55,10 @@ STDOUT.
 Can also be imported as a module within a python program.
 
 ```python
-import x5092json
+from x5092json import x509parser
 
 # load a pem file from the filesystem
-f = open('mycert.pem')
+f = open('mycert.pem', mode='rb')
 cert = x5092json.load_certificate(f)
 x5092json.parse(cert)
 ```
