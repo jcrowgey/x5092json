@@ -48,7 +48,7 @@ Can be used as a command line tool:
 $ cat mycert.pem | x5092json
 ```
 
-For example, the above invocation teads a PEM formatted x509
+For example, the above invocation reads a PEM formatted x509
 Certificate from STDIN by default, the JSON document is printed on
 STDOUT.
 
