@@ -505,17 +505,17 @@ def parse(certificate):
 
 
 def load_certificate(infile, loadfunction=READERS['PEM']):
-    if select.select([infile, ], [], [], 0.0)[0]:
-        return loadfunction(infile.read())
-    else:
+    if infile is None:
         raise IOError
+    
+    return loadfunction(infile.read())
 
 
 def get_parser():
     parser = argparse.ArgumentParser('Parse an x509 certificate, output JSON')
     parser.add_argument('--inform', choices=['DER', 'PEM'], default='PEM')
     parser.add_argument('--in', type=argparse.FileType(mode='rb'),
-                        default=sys.stdin.buffer.raw)
+                        default=(sys.stdin.buffer.raw if not sys.stdin.isatty() else None))
     parser.add_argument('--out', type=argparse.FileType(mode='w'),
                         default=sys.stdout)
     return parser
