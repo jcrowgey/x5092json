@@ -59,8 +59,8 @@ from x5092json import x509parser
 
 # load a pem file from the filesystem
 f = open('mycert.pem', mode='rb')
-cert = x5092json.load_certificate(f)
-x5092json.parse(cert)
+cert = x509parser.load_certificate(f)
+x509parser.parse(cert)
 ```
 
 See the manual for more usage examples and options.
