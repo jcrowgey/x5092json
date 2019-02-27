@@ -4,13 +4,13 @@ import ipaddress
 from cryptography import x509
 from cryptography.hazmat.backends.openssl import decode_asn1
 from cryptography.hazmat.backends.openssl.decode_asn1 import (
-        _asn1_string_to_bytes,
-        _asn1_to_der,
-        _decode_x509_name,
-        _Integers,
-        _obj2txt,
-        _X509ExtensionParser
-        )
+    _asn1_string_to_bytes,
+    _asn1_to_der,
+    _decode_x509_name,
+    _Integers,
+    _obj2txt,
+    _X509ExtensionParser,
+)
 from cryptography.x509.extensions import _TLS_FEATURE_TYPE_TO_ENUM
 from cryptography.x509.name import _ASN1_TYPE_TO_ENUM
 from cryptography.x509.oid import ExtensionOID
@@ -32,7 +32,7 @@ def _patched_decode_x509_name_entry(backend, x509_name_entry):
     try:
         type = _ASN1_TYPE_TO_ENUM[data.type]
     except KeyError:
-        type = 'Unsupported ASN1 string type'
+        type = "Unsupported ASN1 string type"
 
     return x509.NameAttribute(x509.ObjectIdentifier(oid), value, type)
 
@@ -53,9 +53,9 @@ def _patched_asn1_string_to_utf8(backend, asn1_string):
     )
 
     try:
-        return backend._ffi.buffer(buf[0], res)[:].decode('utf8')
+        return backend._ffi.buffer(buf[0], res)[:].decode("utf8")
     except UnicodeDecodeError:
-        return backend._ffi.buffer(buf[0], res)[:].decode('latin1')
+        return backend._ffi.buffer(buf[0], res)[:].decode("latin1")
 
 
 def _patched_decode_general_name(backend, gn):
@@ -76,8 +76,9 @@ def _patched_decode_general_name(backend, gn):
         # Convert to bytes and then decode to utf8. We don't use
         # asn1_string_to_utf8 here because it doesn't properly convert
         # utf8 from ia5strings.
-        name_bytes = _asn1_string_to_bytes(backend,
-                                           gn.d.uniformResourceIdentifier)
+        name_bytes = _asn1_string_to_bytes(
+            backend, gn.d.uniformResourceIdentifier
+        )
         try:
             data = name_bytes.decode("utf8")
         except UnicodeDecodeError:
@@ -101,10 +102,10 @@ def _patched_decode_general_name(backend, gn):
             # netmask. To handle this we convert the netmask to integer, then
             # find the first 0 bit, which will be the prefix. If another 1
             # bit is present after that the netmask is invalid.
-            base = ipaddress.ip_address(data[:data_len // 2])
-            netmask = ipaddress.ip_address(data[data_len // 2:])
+            base = ipaddress.ip_address(data[: data_len // 2])
+            netmask = ipaddress.ip_address(data[data_len // 2 :])
             bits = bin(int(netmask))[2:]
-            prefix = bits.find('0')
+            prefix = bits.find("0")
             # If no 0 bits are found it is a /32 or /128
             if prefix == -1:
                 prefix = len(bits)
@@ -143,7 +144,7 @@ def _patched_decode_general_name(backend, gn):
             "{0} is not a supported type".format(
                 x509._GENERAL_NAMES.get(gn.type, gn.type)
             ),
-            gn.type
+            gn.type,
         )
 
 
@@ -178,9 +179,7 @@ def _xep_patched_parse(self, backend, x509_obj):
             # Dump the DER payload into an UnrecognizedExtension object
             der = dump_der(ext, backend)
             unrecognized = x509.UnrecognizedExtension(oid, der)
-            extensions.append(
-                x509.Extension(oid, critical, unrecognized)
-            )
+            extensions.append(x509.Extension(oid, critical, unrecognized))
         else:
             ext_data = backend._lib.X509V3_EXT_d2i(ext)
             if ext_data == backend._ffi.NULL:

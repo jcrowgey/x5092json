@@ -4,30 +4,28 @@ from cryptography.x509 import oid
 
 
 def monkeypatch_oid_names():
-    oid._OID_NAMES[oid.ExtensionOID.SZOID_CERTIFICATE_TEMPLATE] = (
-            'szOIDCertificateTemplate'
-            )
-    oid._OID_NAMES[oid.ExtensionOID.SZOID_APPLICATION_CERT_POLICIES] = (
-            'szOIDApplicationCertPolicies'
-            )
-    oid._OID_NAMES[oid.ExtensionOID.SMIME_CAPABILITIES] = (
-            'smimeCapabilities'
-            )
-    oid._OID_NAMES[oid.ExtensionOID.PRECERT_SIGNED_CERTIFICATE_TIMESTAMPS] = (
-            'signedCertificateTimestampList'
-            )
+    oid._OID_NAMES[
+        oid.ExtensionOID.SZOID_CERTIFICATE_TEMPLATE
+    ] = "szOIDCertificateTemplate"
+    oid._OID_NAMES[
+        oid.ExtensionOID.SZOID_APPLICATION_CERT_POLICIES
+    ] = "szOIDApplicationCertPolicies"
+    oid._OID_NAMES[oid.ExtensionOID.SMIME_CAPABILITIES] = "smimeCapabilities"
+    oid._OID_NAMES[
+        oid.ExtensionOID.PRECERT_SIGNED_CERTIFICATE_TIMESTAMPS
+    ] = "signedCertificateTimestampList"
 
 
 def monkeypatch_extension_oids():
-    oid.ExtensionOID.SZOID_CERTIFICATE_TEMPLATE = (
-            oid.ObjectIdentifier("1.3.6.1.4.1.311.21.7")
-            )
-    oid.ExtensionOID.SZOID_APPLICATION_CERT_POLICIES = (
-            oid.ObjectIdentifier("1.3.6.1.4.1.311.21.10")
-            )
-    oid.ExtensionOID.SMIME_CAPABILITIES = (
-            oid.ObjectIdentifier("1.2.840.113549.1.9.15")
-            )
+    oid.ExtensionOID.SZOID_CERTIFICATE_TEMPLATE = oid.ObjectIdentifier(
+        "1.3.6.1.4.1.311.21.7"
+    )
+    oid.ExtensionOID.SZOID_APPLICATION_CERT_POLICIES = oid.ObjectIdentifier(
+        "1.3.6.1.4.1.311.21.10"
+    )
+    oid.ExtensionOID.SMIME_CAPABILITIES = oid.ObjectIdentifier(
+        "1.2.840.113549.1.9.15"
+    )
 
 
 def is_sequence(tag):
@@ -50,7 +48,7 @@ def decode_smime_capabilities(der):
 
     decoder.start(sequence)
     capability_derlist = []
-    res = {'capabilities': []}
+    res = {"capabilities": []}
     while True:
         try:
             tag, value = decoder.read()
@@ -61,7 +59,7 @@ def decode_smime_capabilities(der):
                 decoder.start(capder)
                 capability = OrderedDict()
                 tag, value = decoder.read()
-                capability['capability_id'] = value
+                capability["capability_id"] = value
                 parameters = []
                 while True:
                     try:
@@ -69,8 +67,8 @@ def decode_smime_capabilities(der):
                         parameters.append(value)
                     except TypeError:
                         if len(parameters) > 0:
-                            capability['paramters'] = parameters
-                        res['capabilities'].append(capability)
+                            capability["paramters"] = parameters
+                        res["capabilities"].append(capability)
                         break
 
             return res
@@ -86,13 +84,13 @@ def decode_szoid_certificate_template(der):
 
     try:
         tag, value = decoder.read()
-        res['template_id'] = value
+        res["template_id"] = value
 
         tag, value = decoder.read()
-        res['major_version'] = value
+        res["major_version"] = value
 
         tag, value = decoder.read()
-        res['minor_version'] = value
+        res["minor_version"] = value
 
     except TypeError:
         return {"hex": der.hex()}

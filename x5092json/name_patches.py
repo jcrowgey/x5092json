@@ -1,8 +1,12 @@
 # NameAttribute Class is too stringent
 import six
 from cryptography.x509.general_name import IPAddress
-from cryptography.x509.name import (NameAttribute, _SENTINEL, _ASN1Type,
-                                    _NAMEOID_DEFAULT_TYPE)
+from cryptography.x509.name import (
+    NameAttribute,
+    _SENTINEL,
+    _ASN1Type,
+    _NAMEOID_DEFAULT_TYPE,
+)
 from cryptography.x509.oid import ObjectIdentifier
 
 
