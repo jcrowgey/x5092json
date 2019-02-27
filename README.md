@@ -24,7 +24,13 @@ Installation
 ------------
 
 Requires Python3.  Tested against Python3.5, 3.6, 3.7.  May work
-against earlier Py3Ks.
+against earlier Py3Ks.  Because this package relies on pyOpenSSL,
+which relies on libssl C bindings, your system will need to be able to
+build a wheel.  That, in turn, may require such header files as
+`<openssl/opensslv.h>` and `<pyconfig.h>`.  See your distribution's
+package manager for these dependencies (or, in the future, I may be
+able to push out a pre-compiled package for some systems)---file an
+issue if you are interested in this.
 
 From PyPI:
 
