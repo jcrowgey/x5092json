@@ -103,7 +103,7 @@ def _patched_decode_general_name(backend, gn):
             # find the first 0 bit, which will be the prefix. If another 1
             # bit is present after that the netmask is invalid.
             base = ipaddress.ip_address(data[: data_len // 2])
-            netmask = ipaddress.ip_address(data[data_len // 2 :])
+            netmask = ipaddress.ip_address(data[data_len // 2 :])  # noqa: E203
             bits = bin(int(netmask))[2:]
             prefix = bits.find("0")
             # If no 0 bits are found it is a /32 or /128
