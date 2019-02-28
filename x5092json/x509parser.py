@@ -4,7 +4,6 @@ from base64 import b64encode
 from collections import OrderedDict
 import sys
 
-from OpenSSL import crypto
 import cryptography
 from cryptography import x509
 from cryptography.x509.name import RelativeDistinguishedName
@@ -443,12 +442,7 @@ def get_extensions(extensions):
 
 
 def get_namestr(x509name):
-    bio = crypto._new_mem_buf()
-    print_result = crypto._lib.X509_NAME_print_ex(
-        bio, x509name._name, 0, crypto._lib.XN_FLAG_RFC2253
-    )
-    assert print_result >= 0
-    return crypto._native(crypto._bio_to_string(bio))
+    return x509name.rfc4514_string()
 
 
 # Extraction functions
@@ -474,8 +468,8 @@ def set_sig_algo(certificate, data):
     data["signature_algorithm"] = certificate.signature_algorithm_oid._name
 
 
-def set_issuer_str(crypto_cert, data):
-    data["issuer_str"] = get_namestr(crypto_cert.get_issuer())
+def set_issuer_str(certificate, data):
+    data["issuer_str"] = get_namestr(certificate.issuer)
 
 
 def set_issuer(certificate, data):
@@ -501,8 +495,8 @@ def set_validity(certificate, data):
     data["validity"] = res
 
 
-def set_subject_str(crypto_cert, data):
-    data["subject_str"] = get_namestr(crypto_cert.get_subject())
+def set_subject_str(certificate, data):
+    data["subject_str"] = get_namestr(certificate.subject)
 
 
 def set_subject(certificate, data):
@@ -526,15 +520,15 @@ def set_extensions(certificate, data):
 
 # Main control flow functions
 def parse(certificate):
-    openssl_cert = crypto.X509.from_cryptography(certificate)
+    # openssl_cert = crypto.X509.from_cryptography(certificate)
     cert_data = OrderedDict()
     set_version(certificate, cert_data)
     set_serial_number(certificate, cert_data)
     set_sig_algo(certificate, cert_data)
-    set_issuer_str(openssl_cert, cert_data)
+    set_issuer_str(certificate, cert_data)
     set_issuer(certificate, cert_data)
     set_validity(certificate, cert_data)
-    set_subject_str(openssl_cert, cert_data)
+    set_subject_str(certificate, cert_data)
     set_subject(certificate, cert_data)
     set_subject_public_key_info(certificate, cert_data)
     set_name_uids(certificate, cert_data)

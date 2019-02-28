@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="x5092json",
-    version="1.0.2",
+    version="1.1.0",
     description="x5092json Utility",
     author="Joshua Crowgey",
     author_email="jcrowgey@uw.edu",
@@ -14,7 +14,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     python_requires=">=3.5",
-    install_requires=["asn1", "cryptography==2.5", "pyOpenSSL"],
+    install_requires=["asn1", "cryptography", "pyOpenSSL"],
     entry_points={
         "console_scripts": ["x5092json = x5092json.x509parser:main"]
     },
