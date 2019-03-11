@@ -565,6 +565,7 @@ def get_parser():
     )
     return parser
 
+
 def get_json_dump_options(args):
     default_indent = 4
     should_pretty_print = getattr(args, "pretty")
@@ -572,6 +573,7 @@ def get_json_dump_options(args):
     if should_pretty_print:
         dump_options["indent"] = default_indent
     return dump_options
+
 
 def main():
     parser = get_parser()
