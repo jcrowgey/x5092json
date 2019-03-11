@@ -560,8 +560,18 @@ def get_parser():
     parser.add_argument(
         "--out", type=argparse.FileType(mode="w"), default=sys.stdout
     )
+    parser.add_argument(
+        "-p", "--pretty", action="store_const", const=True, default=False
+    )
     return parser
 
+def get_json_dump_options(args):
+    default_indent = 4
+    should_pretty_print = getattr(args, "pretty")
+    dump_options = {"ensure_ascii": False}
+    if should_pretty_print:
+        dump_options["indent"] = default_indent
+    return dump_options
 
 def main():
     parser = get_parser()
@@ -574,7 +584,8 @@ def main():
         parser.print_usage()
         sys.exit(1)
 
-    args.out.write(json.dumps(parse(certificate), ensure_ascii=False))
+    dump_options = get_json_dump_options(args)
+    args.out.write(json.dumps(parse(certificate), **dump_options))
 
 
 if __name__ == "__main__":
