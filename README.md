@@ -1,5 +1,6 @@
 x5092json
 =========
+[![Build Status](https://travis-ci.org/jcrowgey/gcalcli.svg?branch=master)](https://travis-ci.org/jcrowgey/x5092json)
 
 Provides a parser and JSON serializer for x509 certificates.
 
